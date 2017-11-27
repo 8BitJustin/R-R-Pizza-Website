@@ -1,0 +1,295 @@
+
+
+/*******************************************/
+/* Logo Header, Navbar, and Special Header */
+/*******************************************/
+
+/*Logo Header*/
+
+.logoHeader {
+    width: 100%;
+	margin: auto;
+	height: 200px;
+	background-color: white;
+}
+
+.leftDesc, .rightDesc {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+}
+
+.leftDescPara {
+	margin: 0;
+	font-size: 1em;
+}
+
+.midDescPara {
+	margin: 0;
+	font-size: 1em;
+}
+
+.rightDescPara {
+	margin:0;
+	font-size: .75em;
+}
+
+.midDesc {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	display: none;
+}
+
+/*Logo*/
+
+.logoHeader img {
+	height: 200px;
+}
+
+/*Navbar Top*/
+
+.navbar {
+	background-color: white;
+	padding: 0;
+}
+
+.nav-item a {
+	font-size: 1.5em;
+}
+
+.navbar-nav li:nth-child(2), li:nth-child(4) {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*Main Navbar*/
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav .main-nav-link {
+	color: #fff !important;
+}
+
+.main-nav .main-nav-link:hover {
+	color: #fff64f !important;
+}
+
+.main-nav {
+	background-color: #4E4E4E;
+	width: 100%;
+
+}
+
+.main-nav .navbar-toggler {
+	margin: 200px 0 0 0;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/*Navbar Overlay*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*Special Banner*/
+
+.specialHolder {
+	width: 100%;
+	background-color: #4d4d4d;
+}
+
+.specialPara {
+	color: #FCE813;
+	margin: 0;
+	font-size: 1.3em;
+}
+
+
+
+/*******************************************/
+/* Carousel                                */
+/*******************************************/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*******************************************/
+/* About Us                                */
+/*******************************************/
+
+
+
+/*******************************************/
+/* Specials                                */
+/*******************************************/
+
+.specials {
+	background-color: #778899;
+	color: white;
+}
+
+.dayHeader {
+	font-size: 1.8em;
+}
+
+
+
+/*******************************************/
+/* Misc.                                   */
+/*******************************************/
+
+body {
+	background-color: transparent;
+    overflow-x: hidden !important;
+}
+
+.siteContainer {
+	max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.slideHeadings {
+	border-bottom: 2px solid red;
+}
+
+.sections {
+	padding-top: 80px;
+}
+
+.lastSectionItem {
+	padding-bottom: 80px;
+}
+
+.currentSpecial {
+	border-top: 1px solid yellow;
+	border-bottom: 1px solid yellow;
+}
+
+/*******************************************/
+/* Media Queries                           */
+/*******************************************/
+
+/*Logo Header*/
+
+@media (max-width: 767px) {
+	.leftDesc, .rightDesc {
+		display: none;
+	}
+
+	.midDesc {
+		display: block;
+		margin-left: 15px;
+	}
+
+	.logoDiv {
+		padding-right: 0;
+	}
+
+	.logoHeader img {
+		height: 130px;
+	}
+}
+
+/*Navbar*/
+
+@media (max-width: 767px) {
+	.navbar-toggler {
+		position: absolute;
+		top: -198px;
+		left: 2px;
+	}
+}
+
+/*Special Banner*/
+
+@media (max-width: 767px) {
+	.specialPara {
+		font-size: .8em;
+	}
+}
+
+/*About Us*/
+
+@media (max-width: 767px) {
+	.aboutPara {
+		font-size: 1em;
+	}
+}
+
+/*Specials*/
+
+@media (max-width: 767px) {
+	.dayHeader {
+		font-size: 1.6em;
+	}
+	.daySpecial, .daySavings {
+		font-size: 1em;
+	}
+	.specialMarginAdd {
+		margin-bottom: 48px;
+	}
+}
+
+/*Misc*/
+
+@media (max-width: 767px) {
+	.slideHeadings {
+		font-size: 1.8em;
+	}
+}
+
