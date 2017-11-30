@@ -15,11 +15,11 @@
 
   <body data-spy="scroll" data-target=".navbar">
 
-    <div class="container-fluid siteContainer px-0 mx-0"> <!-- Site Container -->
+    <!-- Site Container -->
+    <div class="container-fluid siteContainer px-0 mx-0">
 
       <!-- Logo Header -->
-
-      <div class="row logoHeader mx-0 align-items-center justify-content-center" id="home"> <!-- Logo Header -->
+      <div class="row logoHeader mx-0 align-items-center justify-content-center" id="home">
         <div class="col-lg-2 col-md-3 leftDesc text-center">
           <p class="leftDescPara lead pt-2 pb-2">Dine-in, Carry Out, and</p>
           <p class="leftDescPara lead pb-2">Delivery since 1996</p>
@@ -41,7 +41,6 @@
       </div> <!-- /Logo Header -->
 
       <!-- Navbar Overlay -->
-
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -51,11 +50,10 @@
           <a href="#menu" onclick="closeNav()">Menu</a>
           <a href="#contact" onclick="closeNav()">Contact/Hours</a>
         </div>
-      </div>
+      </div> <!-- Navbar Overlay -->
 
       <!-- Navbar -->
-
-      <nav class="navbar navbar-expand-md navbar-light"> <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-light">
         <button class="navbar-toggler" type="button" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -81,7 +79,6 @@
       </nav> <!-- /Navbar -->
 
       <!-- Rotating Special Section -->
-
       <div class="specialHolder mt-3"> <!-- Div for rotating daily special -->
 
         <div class="row specialDaily mx-0 justify-content-center text-center px-3 py-1">
@@ -97,7 +94,6 @@
       </div> <!-- /Div for rotating daily special -->
 
       <!-- Carousel Section -->
-
       <div id="demo" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
 
         <!-- Indicators -->
@@ -131,7 +127,6 @@
       </div> <!-- /Carousel -->
 
       <!-- Main Nav -->
-
       <nav class="main-nav navbar navbar-expand-md navbar-light mt-0" style="display: none"> <!-- Main Navbar -->
         <button class="navbar-toggler" type="button" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
@@ -158,7 +153,6 @@
       </nav> <!-- /Main Navbar -->
 
       <!-- About Section -->
-
       <div class="aboutUs sections" id="about">
         <div class="row justify-content-center">
           <div class="col-md-4 col-5">
@@ -166,8 +160,8 @@
           </div>
         </div>
         <div class="row justify-content-center mx-auto">
-          <div class="col-lg-3 col-6 pl-3 pr-0"><img src="img/old3quarters.png" class="aboutImg img-fluid" alt=""></div>
-          <div class="col-lg-3 col-6 pr-3 pl-0"><img src="img/newFront.png" class="aboutImg img-fluid" alt=""></div>
+          <div class="col-lg-3 col-6 pl-3 pr-0"><img src="img/old3quarters.png" class="aboutImg img-fluid" id="aboutLeftImg" alt=""></div>
+          <div class="col-lg-3 col-6 pr-3 pl-0"><img src="img/newFront.png" class="aboutImg img-fluid" id="aboutRightImg" alt=""></div>
         </div>
         <div class="row justify-content-center">
           <p class="col-lg-6 col-12 px-4 aboutPara lastSectionItem lead mt-5 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo nisi, dictum in urna at, maximus porta sapien. Vestibulum a velit odio. Proin lorem urna, accumsan at dignissim at, imperdiet sed erat. Aenean ultrices nisl ut nisl fermentum, a accumsan magna finibus. Nullam nec sapien velit. Donec sed augue rutrum diam interdum feugiat vitae eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo nisi, dictum in urna at, maximus porta sapien. Vestibulum a velit odio.</p>
@@ -175,8 +169,7 @@
       </div>
 
       <!-- Specials Section -->
-
-      <div class="specials sections lastSectionItem" id="specials">
+      <div class="specials sections lastSectionItem" data-parallax="scroll" data-speed="0.3" data-image-src="img/CheesePizzaDarkBlur.png" id="specials">
         <div class="row justify-content-center">
           <div class="col-md-4 col-8">
             <h1 class="slideHeadings display-4 text-center mb-5 pb-3">Our Daily Specials</h1>
@@ -221,7 +214,6 @@
       </div>
 
       <!-- Menu -->
-
       <div class="container-fluid menu sections lastSectionItem">
         <div class="row justify-content-center">
           <div class="col-md-4 col-8">
@@ -237,6 +229,8 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Parallax JS -->
+    <script src="js/parallax.js"></script>
 
     <!-- Rotating Daily Special Script -->
     <script>
@@ -255,6 +249,7 @@
 
     <!-- Adds currentSpecial class to dayContainer div to provide border for the day of special -->
     <script>
+
     var d = new Date();
     var n = d.getDay();
 

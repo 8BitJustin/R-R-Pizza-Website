@@ -180,15 +180,22 @@ RR Yellow - #FCE813
 /* About Us                                */
 /*******************************************/
 
+#aboutLeftImg {
+	border-radius: 15px 0 0 50px;
+}
 
+#aboutRightImg {
+	border-radius: 0 50px 15px 0;
+}
 
 /*******************************************/
 /* Specials                                */
 /*******************************************/
 
 .specials {
-	background-color: #778899;
-	background-image: url('../img/CheesePizzaDarkBlur.png');
+/*Color and image commented-out due to parallax.js script on index.html*/
+/*	background-color: #778899;*/
+/*  background-image: url('../img/CheesePizzaDarkBlur.png');*/
 /*	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;*/
@@ -314,6 +321,13 @@ body {
 @media (max-width: 767px) {
 	.aboutPara {
 		font-size: 1em;
+	}
+	#aboutLeftImg {
+		border-radius: 6px 0 0 20px;
+	}
+
+#aboutRightImg {
+		border-radius: 0 20px 6px 0;
 	}
 }
 
