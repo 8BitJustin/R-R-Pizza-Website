@@ -12,3 +12,6 @@ Added two images of front (old and new) to About Us page. Also adjusted the col-
 Adjusted cheese pizza image provided by client to be darker/blurry. Applied to back of Daily Specials section per client request.
 Removed 'include' from Daily Specials section.
 Removed and added numerous images to img folder to avoid clutter.
+
+11/29/2017:
+Added Parallax.js file/script to main file. Applied to Specials section thus far.
