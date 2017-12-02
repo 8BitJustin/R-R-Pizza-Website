@@ -229,7 +229,36 @@ RR Yellow - #FCE813
     background-size: cover;
 }
 
+.menuSubHeading {
+	font-size: 1.8em;
+}
 
+.menuHeadings {
+	border-bottom: 2px solid #DB1D00;
+	padding-bottom: 10px;
+}
+
+.toppings {
+	padding-top: 4px;
+	font-size: .9em;
+}
+
+
+/*Pizza Table*/
+
+.table td, .table th {
+	border-color: transparent;
+}
+
+.table tbody td, .table tbody th {
+	border-color: #DB1D00;
+}
+
+.table thead th {
+	border-bottom: none;
+}
+
+/*/Pizza Table*/
 
 
 /*******************************************/
@@ -246,15 +275,8 @@ body {
     overflow-x: hidden !important;
 }
 
-.slideHeadings {
-	border-bottom: 2px solid #DB1D00;
-}
-
 .sections {
 	padding-top: 80px;
-}
-
-.lastSectionItem {
 	padding-bottom: 80px;
 }
 
@@ -346,6 +368,15 @@ body {
 }
 
 /*Menu*/
+
+@media (max-width: 767px) {
+	.menuHeadings {
+		font-size: 2.8em;
+	}
+	.menu-table-item {
+		font-size: .9em;
+	}
+}
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 /*@media (max-width: 767px) {
