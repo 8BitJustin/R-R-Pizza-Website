@@ -15,3 +15,6 @@ Removed and added numerous images to img folder to avoid clutter.
 
 11/29/2017:
 Added Parallax.js file/script to main file. Applied to Specials section thus far. Also added rounded borders to About images.
+
+11/30/2017:
+Started adding menu items and pizza table to Menu section.
