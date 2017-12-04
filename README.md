@@ -18,3 +18,10 @@ Added Parallax.js file/script to main file. Applied to Specials section thus far
 
 11/30/2017:
 Started adding menu items and pizza table to Menu section.
+
+12/3/2017:
+Adjusted some headings within site and menu headers
+Added specialty section.
+Added items within specialty section, all up to Supreme.
+Adjusted background to be offset on big screens, and centered on mobile.
+Provided weekly update to client.
