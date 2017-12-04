@@ -217,14 +217,14 @@ RR Yellow - #FCE813
 /*******************************************/
 
 .menu {
-	background-image: url('../img/rrBackground.png');
+	background-image: url('../img/logoBackground.png');
 
     /* Full height */
     height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: top -36px center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }

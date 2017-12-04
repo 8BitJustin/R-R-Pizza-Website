@@ -25,3 +25,4 @@ Added specialty section.
 Added items within specialty section, all up to Supreme.
 Adjusted background to be offset on big screens, and centered on mobile.
 Provided weekly update to client.
+Replaced rrBackground.png with logoBackground.png.
