@@ -206,11 +206,17 @@ RR Yellow - #FCE813
 	color: white;
 }
 
-.dayHeader {
-	font-size: 2em;
+.day_header {
+	font-size: 1.75em;
 }
 
+.day_special {
+	font-size: 1.4em;
+}
 
+.four_days {
+	margin-bottom: 48px;
+}
 
 /*******************************************/
 /* Menu                                    */
@@ -229,24 +235,32 @@ RR Yellow - #FCE813
     background-size: cover;
 }
 
-.menuSubHeading {
-	font-size: 1.8em;
+.menu_sub_heading {
+	font-size: 1.75em;
 }
 
-.menuHeadings {
+.menu_specialty {
 	margin-top: 48px;
 	border-bottom: 2px solid #DB1D00;
 	padding-bottom: 10px;
-	font-size: 2.7em;
+	font-size: 2.8em;
 }
 
-.menuItems {
-	font-size: 2em;
+.menu_item_container {
+		margin-top: 48px;
+	}
+
+.menu_item {
+	font-size: 1.75em;
 }
 
-.toppings {
+.menu_item_desc {
+	font-size: 1.4em;
+}
+
+.toppings_flavors_info {
 	padding-top: 4px;
-	font-size: .9em;
+	font-size: .875em;
 }
 
 
@@ -265,6 +279,11 @@ RR Yellow - #FCE813
 }
 
 /*/Pizza Table*/
+
+.supreme_sizes {
+	margin-bottom: 16px;
+}
+
 
 
 /*******************************************/
@@ -286,11 +305,20 @@ body {
 	padding-bottom: 80px;
 }
 
+.slide_header {
+	padding-bottom: 12px;
+	margin-bottom: 36px;
+	font-size: 3.5em;
+}
+
 .currentSpecial {
 
 	/*Full Curved Border*/
 	border: 1px solid #FCE813;
 	border-radius: 15px 50px;
+
+	background-color: rgba(255,255,255,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 	/*Left-Right Border*/
 	/*border-left: 1px solid #FCE813;
@@ -299,6 +327,10 @@ body {
 	/*Top-Bottom Border*/
 	/*border-top: 1px solid #FCE813;
 	border-bottom: 1px solid #FCE813;*/
+}
+
+.last_item {
+	margin-bottom: 16px;
 }
 
 /*******************************************/
@@ -354,7 +386,7 @@ body {
 		border-radius: 6px 0 0 20px;
 	}
 
-#aboutRightImg {
+	#aboutRightImg {
 		border-radius: 0 20px 6px 0;
 	}
 }
@@ -362,30 +394,46 @@ body {
 /*Specials*/
 
 @media (max-width: 767px) {
-	.dayHeader {
-		font-size: 1.6em;
+	.day_header {
+		font-size: 1.2em;
 	}
-	.daySpecial, .daySavings {
-		font-size: 1em;
+	.day_special, .day_savings {
+		font-size: .8em;
+	}
+	.four_days {
+		margin-bottom: 24px;
 	}
 	.specialMarginAdd {
-		margin-bottom: 48px;
+		margin-bottom: 24px;
 	}
 }
 
 /*Menu*/
 
 @media (max-width: 767px) {
-	.menu {	
-	    background-position: center;
+	.menu_specialty {
+		font-size: 1.8em;
+		margin-top: 24px;
 	}
-
-	.menuHeadings {
-		font-size: 2em;
+	.menu_sub_heading {
+		font-size: 1.2em;
+	}
+	.menu_item_container {
+		margin-top: 24px;
 	}
 	.menu-table-item {
-		font-size: .9em;
+		font-size: .8em;
 	}
+	.menu_item {
+		font-size: 1.5em;
+	}
+	.menu_item_desc {
+		font-size: .8em;
+	}
+	.size_price {
+		font-size: .8em;
+	}
+
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
@@ -398,8 +446,14 @@ body {
 /*Misc*/
 
 @media (max-width: 767px) {
-	.mainHeaders {
-		font-size: 2.5em;
+	.sections {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.slide_header {
+		padding-bottom: 8px;
+		margin-bottom: 24px;
+		font-size: 2.4em;
 	}
 }
-

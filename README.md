@@ -26,3 +26,9 @@ Added items within specialty section, all up to Supreme.
 Adjusted background to be offset on big screens, and centered on mobile.
 Provided weekly update to client.
 Replaced rrBackground.png with logoBackground.png.
+
+12/6/2017:
+Altered numerous classes to 'make more sense'.
+Adjusted font sizes for most of page for big and small screens.
+Added background and box shadow to daily special
+Added buffalo wings, pizza/wing combo, and salads to site.
