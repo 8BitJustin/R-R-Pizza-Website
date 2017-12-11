@@ -223,7 +223,7 @@ RR Yellow - #FCE813
 /*******************************************/
 
 .menu {
-	background-image: url('../img/logoBackground.png');
+	background-image: url('../img/logoBackgroundLarge.png');
 
     /* Full height */
     height: 100%; 
@@ -247,8 +247,8 @@ RR Yellow - #FCE813
 }
 
 .menu_item_container {
-		margin-top: 48px;
-	}
+	margin-top: 24px;
+}
 
 .menu_item {
 	font-size: 1.75em;
