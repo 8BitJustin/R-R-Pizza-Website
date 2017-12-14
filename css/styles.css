@@ -284,6 +284,15 @@ RR Yellow - #FCE813
 	margin-bottom: 16px;
 }
 
+.hot_cold {
+	margin-top: 24px;
+	font-size: 1.4em;
+	border-bottom: 1px solid #DB1D00;
+}
+
+.menu_disclaimer {
+	margin-top: 96px;
+}
 
 
 /*******************************************/

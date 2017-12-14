@@ -36,3 +36,16 @@ Added buffalo wings, pizza/wing combo, and salads to site.
 12/10/2017
 Client replied. Asked for less spacing between pizzas, reduced menu_item_container top margin from 48 to 24.
 Also per client request, increased size of RR logo on menu background. Increased size, removed logoBackground.png and replaced with logoBackgroundLarge.png.
+
+12/11/2017
+Corrected Specialty to reflect Specialty Pizzas.
+Corrected supreme XL to 20.00
+Added gluten info
+
+12/13/2017
+Added to Sandwich area.
+Added toppings for sandwiches.
+Cold/Hot text added.
+Added all sandwiches, separated hot and cold sandwiches.
+Addd disclaimer at bottom.
+Menu finished at this time.
