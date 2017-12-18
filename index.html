@@ -11,6 +11,10 @@
 
     <!-- Styles CSS -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome Script -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
@@ -27,7 +31,7 @@
 
         <div class="col-md-3 col-5 midDesc text-center">
           <p class="midDescPara lead pt-2 pb-2">Marana, AZ</p>
-          <p class="midDescPara lead pb-2">520-682-2022</p>
+          <p class="midDescPara lead pb-2"><a href="tel:1-520-682-2022">520-682-2022</a></p>
           <p class="midDescPara lead pb-2">M-Sat: 11a-9p</p>          
         </div>
 
@@ -48,7 +52,7 @@
           <a href="#about" onclick="closeNav()">About Us</a>
           <a href="#specials" onclick="closeNav()">Specials</a>
           <a href="#menu" onclick="closeNav()">Menu</a>
-          <a href="#contact" onclick="closeNav()">Contact/Hours</a>
+          <a href="#contact" onclick="closeNav()">Location &amp; Contact</a>
         </div>
       </div> <!-- Navbar Overlay -->
 
@@ -72,7 +76,7 @@
               <a class="nav-link lead" href="#menu">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lead" href="#contact">Contact/Hours</a>
+              <a class="nav-link lead" href="#contact">Location &amp; Contact</a>
             </li>
           </ul>
         </div>
@@ -146,7 +150,7 @@
               <a class="nav-link main-nav-link lead" href="#menu">Menu</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link main-nav-link lead" href="#contact">Contact/Hours</a>
+              <a class="nav-link main-nav-link lead" href="#contact">Location &amp; Contact</a>
             </li>
           </ul>
         </div>
@@ -211,6 +215,26 @@
             <div class="day_savings text-center lead">(Save 6.00)</div>
           </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 col-8">
+            <h1 class="display-4 text-center lunch_specials_heading">Our Lunch Specials</h1>
+            <h4 class="display-4 text-center sub_heading">(11 a.m. - 4 p.m.)</h4>
+          </div>
+        </div>
+        <div class="row menu_item_container justify-content-center">
+          <div class="col-12 text-center mb-3">
+            <h4 class="display-4 special_item mt-3">1 Slice <span class="lead">(1 Topping) - 1.99</span></h4>
+          </div>
+          <div class="col-12 text-center mb-3">
+            <h4 class="display-4 special_item">2 Slice & Drink Combo <span class="lead">(1 Topping) - 4.86</span></h4>
+          </div>
+          <div class="col-12 text-center mb-3">
+            <h4 class="display-4 special_item">1 Slice, 6 wings & Drink Combo <span class="lead">(1 Topping) - 5.54</span></h4>
+          </div>
+          <div class="col-12 text-center mb-3">
+            <h4 class="display-4 special_item last_item">Pick of 2: 1 Slice, 6 Wings, Side Salad, 4 Breadsticks & Drink <span class="lead"> - 5.54</span></h4>
+          </div>
+        </div>
       </div>
 
       <!-- Menu -->
@@ -218,7 +242,7 @@
         <div class="row justify-content-center">
           <div class="col-md-4 col-8">
             <h1 class="display-4 text-center slide_header">Our Menu</h1>
-            <h4 class="menu_sub_heading display-4 text-center pb-3">Pizza, Wings, Salad, Pasta, Breadsticks & More!</h4>
+            <h4 class="sub_heading display-4 text-center pb-3">Pizza, Wings, Salad, Pasta, Breadsticks & More!</h4>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -571,6 +595,41 @@
           <div class="col-md-8 text-center">
             <p class="lead toppings_flavors_info mb-1">Prices and availability subject to change without notice.</p>
             <p class="lead toppings_flavors_info mb-1">R &amp; R Pizza Express uses only top quality ingredients, including 100% real cheese.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map/Hours/Contact Section -->
+      <div class="contact sections" id="contact">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-8">
+            <h1 class="display-4 text-center slide_header">Our Location</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <h4 class="address display-4 text-center pb-1">13905 North Sandario Road</h4>
+            <h4 class="address display-4 text-center pb-3">Marana, AZ 85653</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6 bot_padding">
+            <h4 class="address display-4 text-center pb-3">Click here to see if we deliver to your area &nbsp;<i class="fa fa-car" aria-hidden="true"></i></h4>
+          </div>
+        </div>
+        <div class="" id="contact">
+          <iframe src="https://snazzymaps.com/embed/35223" width="100%" height="500px" style="border:none;"></iframe>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-8 hours_heading">
+            <h1 class="display-4 text-center slide_header">Hours of Operation</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <h4 class="address display-4 text-center pb-1">Monday thru Saturday</h4>
+            <h4 class="address display-4 text-center pb-3">11 a.m. to 9 p.m.</h4>
+            <h4 class="address display-4 text-center pb-3">Closed on Sundays</h4>
           </div>
         </div>
       </div>

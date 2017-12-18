@@ -37,7 +37,7 @@ RR Yellow - #FCE813
 }
 
 .rightDescPara {
-	margin:0;
+	margin: 0;
 	font-size: .75em;
 }
 
@@ -45,6 +45,11 @@ RR Yellow - #FCE813
 	border-top: 1px solid #DB1D00;
 	border-bottom: 1px solid #DB1D00;
 	display: none;
+}
+
+a[href^="tel:"] {
+  color: black;
+  text-decoration: none;
 }
 
 /*Logo*/
@@ -218,6 +223,16 @@ RR Yellow - #FCE813
 	margin-bottom: 48px;
 }
 
+.lunch_specials_heading {
+	padding-top: 80px;
+	padding-bottom: 12px;
+	font-size: 3.5em;
+}
+
+.special_item {
+	font-size: 1.75em;
+}
+
 /*******************************************/
 /* Menu                                    */
 /*******************************************/
@@ -235,7 +250,7 @@ RR Yellow - #FCE813
     background-size: cover;
 }
 
-.menu_sub_heading {
+.sub_heading {
 	font-size: 1.75em;
 }
 
@@ -295,6 +310,29 @@ RR Yellow - #FCE813
 }
 
 
+
+/*******************************************/
+/* Contact/Location                        */
+/*******************************************/
+
+.contact {
+	background-color: #DB1D00;
+	color: white;
+}
+
+.contact_sub_heading {
+	font-size: 2.4em;
+}
+
+.address {
+	font-size: 1.75em;
+}
+
+.hours_heading {
+	padding-top: 80px;
+}
+
+
 /*******************************************/
 /* Misc.                                   */
 /*******************************************/
@@ -340,6 +378,10 @@ body {
 
 .last_item {
 	margin-bottom: 16px;
+}
+
+.bot_padding {
+	padding-bottom: 80px; /*Used for padding at end of section*/
 }
 
 /*******************************************/
@@ -415,6 +457,14 @@ body {
 	.specialMarginAdd {
 		margin-bottom: 24px;
 	}
+	.special_item {
+		font-size: 1.2em;
+	}
+	.lunch_specials_heading {
+		padding-top: 40px;
+		padding-bottom: 8px;
+		font-size: 2.4em;
+	}
 }
 
 /*Menu*/
@@ -424,7 +474,7 @@ body {
 		font-size: 1.8em;
 		margin-top: 24px;
 	}
-	.menu_sub_heading {
+	.sub_heading {
 		font-size: 1.2em;
 	}
 	.menu_item_container {
@@ -443,6 +493,17 @@ body {
 		font-size: .8em;
 	}
 
+}
+
+/*Contact*/
+
+@media (max-width: 767px) {
+	.address {
+		font-size: 1.2em;
+	}
+	.hours_heading {
+		padding-top: 40px;
+	}
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
@@ -464,5 +525,9 @@ body {
 		padding-bottom: 8px;
 		margin-bottom: 24px;
 		font-size: 2.4em;
+	}
+
+	.bot_padding {
+		padding-bottom: 40px; /*Used for padding at end of section*/
 	}
 }

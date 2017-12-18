@@ -49,3 +49,16 @@ Cold/Hot text added.
 Added all sandwiches, separated hot and cold sandwiches.
 Addd disclaimer at bottom.
 Menu finished at this time.
+
+12/14/2017
+Created and added map with custom icon (style subject to change)
+
+12/17/2017
+Changed nav item Contact/Location to Location & Contact
+Placed map inside of Contact section
+Added address and 'deliver area' text above map (icon not clickable yet)
+Added hours of op below map
+Placed lunch specials within Our Specials section
+Adjusted a few classes, fonts, margins, and paddings regarding normal and responsive sizes
+Make phone number at top for mobile clickable for phones
+**Update to git includes 12/14 update**
