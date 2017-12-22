@@ -30,8 +30,8 @@
         </div>
 
         <div class="col-md-3 col-5 midDesc text-center">
-          <p class="midDescPara lead pt-2 pb-2">Marana, AZ</p>
-          <p class="midDescPara lead pb-2"><a href="tel:1-520-682-2022">520-682-2022</a></p>
+          <p class="midDescPara lead pt-2">Marana, AZ</p>
+          <p class="midDescPara lead"><a href="tel:1-520-682-2022">520-682-2022</a></p>
           <p class="midDescPara lead pb-2">M-Sat: 11a-9p</p>          
         </div>
 
@@ -617,19 +617,82 @@
             <h4 class="address display-4 text-center pb-3">Click here to see if we deliver to your area &nbsp;<i class="fa fa-car" aria-hidden="true"></i></h4>
           </div>
         </div>
-        <div class="" id="contact">
+        <div id="contact">
           <iframe src="https://snazzymaps.com/embed/35223" width="100%" height="500px" style="border:none;"></iframe>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 col-8 hours_heading">
-            <h1 class="display-4 text-center slide_header">Hours of Operation</h1>
+          <div class="col-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-12 hours_heading">
+                <h1 class="display-4 text-center slide_header">How to Reach Us</h1>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h4 class="contact_phone display-4 text-center pb-2"><a href="tel:1-520-682-2022">520-682-2022</a></h4>
+                <h4 class="dine_in display-4 text-center pb-1 pt-4">Dine-In &middot; Delivery &middot; Carry-Out</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-12 hours_heading">
+                <h1 class="display-4 text-center slide_header">Hours of Operation</h1>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h4 class="address display-4 text-center pb-1">Monday thru Saturday</h4>
+                <h4 class="address display-4 text-center pb-3">11 a.m. to 9 p.m.</h4>
+                <h4 class="address display-4 text-center pb-3">Closed on Sundays</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form sections">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="display-4 text-center slide_header ">Questions &middot; Comments &middot; Concerns</h1>
+            <h4 class="form-text display-4 text-center pb-5">Please feel free to message us directly using the form below</h4>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6">
-            <h4 class="address display-4 text-center pb-1">Monday thru Saturday</h4>
-            <h4 class="address display-4 text-center pb-3">11 a.m. to 9 p.m.</h4>
-            <h4 class="address display-4 text-center pb-3">Closed on Sundays</h4>
+          <div class="col-md-6">
+            <form name="contactform" method="post" action="send_form_email.php">
+              <fieldset>
+                <div class="form-group">
+                  <div class="firstName">
+                      <input id="fname" name="first_name" type="text" placeholder="First Name" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="lastName">
+                      <input id="lname" name="last_name" type="text" placeholder="Last Name" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="emailInput">
+                      <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="phoneInput">
+                      <input id="phone" name="telephone" type="text" placeholder="Phone" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="messageInput">
+                      <textarea class="form-control" id="message" name="comments" placeholder="Enter your message for us here." rows="7"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="text-center submit_button">
+                      <button type="submit" value="Submit" class="btn sub-btn btn-outline-danger btn-lg">Submit</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
         </div>
       </div>

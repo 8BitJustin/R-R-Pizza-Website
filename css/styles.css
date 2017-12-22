@@ -47,9 +47,10 @@ RR Yellow - #FCE813
 	display: none;
 }
 
-a[href^="tel:"] {
-  color: black;
-  text-decoration: none;
+.midDesc a {
+	color: black;
+  	text-decoration: none;
+  	font-size: 22px;
 }
 
 /*Logo*/
@@ -332,6 +333,80 @@ a[href^="tel:"] {
 	padding-top: 80px;
 }
 
+.fa-car {
+	color: #FCE813;
+}
+
+.contact_phone a {
+	color: white;
+  	text-decoration: none;
+
+}
+
+.dine_in {
+	font-size: 1.75em;
+}
+
+.form-text {
+	font-size: 1.75em;
+}
+
+/*FORM*/
+
+input[type=text] {
+    background-color: #DB1D00;
+    color: white;
+}
+
+#message {
+	background-color: #DB1D00;
+	color: white;
+}
+
+#message:focus {
+	background-color: white;
+    color: #DB1D00
+}
+
+/*Placeholder input*/
+input::-webkit-input-placeholder {
+	color: white !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+	color: #white !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+	color: #white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+	color: #white !important;  
+}
+
+/*Textarea input*/
+
+textarea::-webkit-input-placeholder {
+	color: white !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+	color: white !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+	color: white !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+	color: white !important;  
+}
+
+input[type=text]:focus {
+    background-color: white;
+    color: #DB1D00
+}
 
 /*******************************************/
 /* Misc.                                   */
@@ -498,7 +573,7 @@ body {
 /*Contact*/
 
 @media (max-width: 767px) {
-	.address {
+	.address, form-text {
 		font-size: 1.2em;
 	}
 	.hours_heading {

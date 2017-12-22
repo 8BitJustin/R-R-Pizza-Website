@@ -62,3 +62,16 @@ Placed lunch specials within Our Specials section
 Adjusted a few classes, fonts, margins, and paddings regarding normal and responsive sizes
 Make phone number at top for mobile clickable for phones
 **Update to git includes 12/14 update**
+
+12/18/2017
+Increased size of phone number at top of site for mobile devices
+
+12/19/2017
+Added How to Contact area
+Added tel a link to phone number
+
+12/21/2017
+Added QCC area
+Added form
+Adjusted colors of form
+Added .php form file
