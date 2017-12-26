@@ -75,3 +75,7 @@ Added QCC area
 Added form
 Adjusted colors of form
 Added .php form file
+
+12/24/2017
+Added Footer and all relevant info
+Added .png of delivery area to file, linked via car icon

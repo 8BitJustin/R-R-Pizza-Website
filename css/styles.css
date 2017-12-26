@@ -351,6 +351,8 @@ RR Yellow - #FCE813
 	font-size: 1.75em;
 }
 
+
+
 /*FORM*/
 
 input[type=text] {
@@ -407,6 +409,29 @@ input[type=text]:focus {
     background-color: white;
     color: #DB1D00
 }
+
+
+
+/*******************************************/
+/* Footer                                  */
+/*******************************************/
+
+.footer {
+	padding: 20px 0px;
+	background-color: #4E4E4E;
+	color: #FCE813;
+}
+
+.footer_text {
+	margin: 0;
+}
+
+.footer_text a {
+	text-decoration: none;
+	color: #FCE813;
+}
+
+
 
 /*******************************************/
 /* Misc.                                   */
@@ -587,6 +612,18 @@ body {
         background-attachment: scroll;
     }
 }*/
+
+/*Footer*/
+
+@media (max-width: 767px) {
+	.footer {
+		padding: 10px 0px;
+	}
+
+.footer_text {
+		font-size: .8em;
+	}
+}
 
 /*Misc*/
 
