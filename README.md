@@ -79,3 +79,6 @@ Added .php form file
 12/24/2017
 Added Footer and all relevant info
 Added .png of delivery area to file, linked via car icon
+
+12/26/2017
+Small adjustments to contact area with media queries

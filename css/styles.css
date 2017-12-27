@@ -366,8 +366,8 @@ input[type=text] {
 }
 
 #message:focus {
-	background-color: white;
-    color: #DB1D00
+	background-color: #DB1D00;
+    color: white;
 }
 
 /*Placeholder input*/
@@ -406,8 +406,8 @@ textarea:-ms-input-placeholder {
 }
 
 input[type=text]:focus {
-    background-color: white;
-    color: #DB1D00
+    background-color: #DB1D00;
+    color: white;
 }
 
 
@@ -592,14 +592,19 @@ body {
 	.size_price {
 		font-size: .8em;
 	}
-
+	.menu_disclaimer {
+		margin-top: 48px;
+	}
 }
 
 /*Contact*/
 
 @media (max-width: 767px) {
-	.address, form-text {
+	.address, .form-text, .dine_in {
 		font-size: 1.2em;
+	}
+	.contact_phone {
+		font-size: 1.8em;
 	}
 	.hours_heading {
 		padding-top: 40px;
@@ -620,7 +625,7 @@ body {
 		padding: 10px 0px;
 	}
 
-.footer_text {
+	.footer_text {
 		font-size: .8em;
 	}
 }
