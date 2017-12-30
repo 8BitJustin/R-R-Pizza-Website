@@ -182,7 +182,7 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 col-10 dayContainer four_days py-2">
             <div class="day_header text-center display-4 pb-3">Monday's Special</div>
-            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price & Get FREE Breadsticks</div>
+            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price & Get <strong>FREE Breadsticks</strong></div>
             <div class="day_savings text-center lead">(Save 4.50)</div>
           </div>
           <div class="col-md-4 col-10 dayContainer four_days py-2">
@@ -194,7 +194,7 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 col-10 dayContainer four_days py-2">
             <div class="day_header text-center display-4 pb-3">Wednesday's Special</div>
-            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price & get a Second Pizza (of equal or lessr value) for 1/2 Price</div>
+            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price & get a Second Pizza (of equal or lessr value) <strong>for 1/2 Price</strong></div>
             <div class="day_savings text-center lead">(Save 10.00)</div>
           </div>
           <div class="col-md-4 col-10 dayContainer four_days py-2">
@@ -215,41 +215,46 @@
             <div class="day_savings text-center lead">(Save 6.00)</div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-5 col-8">
-            <h1 class="display-4 text-center lunch_specials_heading">Our Lunch Specials</h1>
-            <h4 class="display-4 text-center sub_heading">(11 a.m. - 4 p.m.)</h4>
-          </div>
-        </div>
-        <div class="row menu_item_container justify-content-center">
-          <div class="col-12 text-center mb-3">
-            <h4 class="display-4 special_item mt-3">1 Slice <span class="lead">(1 Topping) - 1.99</span></h4>
-          </div>
-          <div class="col-12 text-center mb-3">
-            <h4 class="display-4 special_item">2 Slice & Drink Combo <span class="lead">(1 Topping) - 4.86</span></h4>
-          </div>
-          <div class="col-12 text-center mb-3">
-            <h4 class="display-4 special_item">1 Slice, 6 wings & Drink Combo <span class="lead">(1 Topping) - 5.54</span></h4>
-          </div>
-          <div class="col-12 text-center mb-3">
-            <h4 class="display-4 special_item last_item">Pick of 2: 1 Slice, 6 Wings, Side Salad, 4 Breadsticks & Drink <span class="lead"> - 5.54</span></h4>
-          </div>
-        </div>
+        
       </div>
 
       <!-- Menu -->
       <div class="container-fluid menu sections" id="menu">
         <div class="row justify-content-center">
-          <div class="col-md-4 col-8">
+          <div class="col-md-6 col-8">
             <h1 class="display-4 text-center slide_header">Our Menu</h1>
-            <h4 class="sub_heading display-4 text-center pb-3">Pizza, Wings, Salad, Pasta, Breadsticks & More!</h4>
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <h1 class="display-4 text-center lunch_specials_heading">Lunch Specials</h1>
+                <h4 class="display-4 text-center sub_heading">(11 a.m. - 4 p.m.)</h4>
+              </div>
+            </div>
+            <div class="row menu_item_container justify-content-center">
+              <div class="col-12 text-center mb-3">
+                <h4 class="display-4 special_item mt-3">1 Slice - 1 Topping</h4>
+                <p class="lead bold">&horbar; 1.99 &horbar;</p>
+              </div>
+              <div class="col-12 text-center mb-3">
+                <h4 class="display-4 special_item">2 Slice & Drink Combo - 1 Topping</h4>
+                <p class="lead bold">&horbar; 4.86 &horbar;</p>
+              </div>
+              <div class="col-12 text-center mb-3">
+                <h4 class="display-4 special_item">1 Slice, 6 wings & Drink Combo - 1 Topping</h4>
+                <p class="lead bold">&horbar; 5.54 &horbar;</p>
+              </div>
+              <div class="col-12 text-center mb-3">
+                <h4 class="display-4 special_item">Pick of 2: 1 Slice, 6 Wings, Side Salad, 4 Breadsticks & Drink</h4>
+                <p class="lead bold">&horbar; 5.54 &horbar;</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 text-center">
             <h4 class="menu_specialty display-4">Pizza</h4>
-            <p class="lead">Gluten free crust with Medium for only $1 more</p>
+            <p class="lead toppings">Toppings</p>
             <p class="toppings_flavors_info lead">Anchovy &middot; Bacon &middot; Banana Pepper &middot; Bell Pepper &middot; Black Olive &middot; Brocolli &middot; Canadian Bacon &middot; Chicken (counts as 2 toppings) &middot; Extra Cheese &middot; Green Chile &middot; Ground Beef &middot; Garlic &middot; Jalapeno &middot; Mushroom &middot; Red Onion &middot; Pepperoni &middot; Pineapple &middot; Sausage &middot; Shrimp &middot; Spinach &middot; Tomato</p>
+            
           </div>
         </div>
         <div class="row justify-content-center mt-3">
@@ -267,27 +272,28 @@
               <tbody>
                 <tr>
                   <th scope="row" class="lead menu-table-item">Cheese</th>
-                  <td class="lead menu-table-item">5.49</td>
-                  <td class="lead menu-table-item">11.49</td>
-                  <td class="lead menu-table-item">12.99</td>
-                  <td class="lead menu-table-item">14.99</td>
+                  <td class="lead menu-table-item bold">5.49</td>
+                  <td class="lead menu-table-item bold">11.49</td>
+                  <td class="lead menu-table-item bold">12.99</td>
+                  <td class="lead menu-table-item bold">14.99</td>
                 </tr>
                 <tr>
                   <th scope="row" class="lead menu-table-item">Each Addl. Topping</th>
-                  <td class="lead menu-table-item">.60</td>
-                  <td class="lead menu-table-item">1.29</td>
-                  <td class="lead menu-table-item">1.49</td>
-                  <td class="lead menu-table-item">1.69</td>
+                  <td class="lead menu-table-item bold">.60</td>
+                  <td class="lead menu-table-item bold">1.29</td>
+                  <td class="lead menu-table-item bold">1.49</td>
+                  <td class="lead menu-table-item bold">1.69</td>
                 </tr>
                 <tr>
                   <th scope="row" class="lead menu-table-item">Premium Sauces (White Sauce, Alfredo, BBQ)</th>
-                  <td class="lead menu-table-item">.50</td>
-                  <td class="lead menu-table-item">.50</td>
-                  <td class="lead menu-table-item">1.00</td>
-                  <td class="lead menu-table-item">1.00</td>
+                  <td class="lead menu-table-item bold">.50</td>
+                  <td class="lead menu-table-item bold">.50</td>
+                  <td class="lead menu-table-item bold">1.00</td>
+                  <td class="lead menu-table-item bold">1.00</td>
                 </tr>
               </tbody>
             </table>
+            <p class="lead text-center">Gluten free crust available for $1 extra *Medium size only</p>
           </div>
         </div>
 
@@ -299,10 +305,10 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-md-2 size_price lead">Sm 8" - 7.49</div>
-          <div class="col-md-2 size_price lead">Md 12" - 15.99</div>
-          <div class="col-md-2 size_price lead">Lg 14" - 17.99</div>
-          <div class="col-md-2 size_price lead">Xl 16" - 19.99</div>
+          <div class="col-md-2 size_price lead">Sm 8" - <strong>7.49</strong></div>
+          <div class="col-md-2 size_price lead">Md 12" - <strong>15.99</strong></div>
+          <div class="col-md-2 size_price lead">Lg 14" - <strong>17.99</strong></div>
+          <div class="col-md-2 size_price lead">Xl 16" - <strong>19.99</strong></div>
         </div>
         <div class="row menu_item_container justify-content-center">
           <div class="col-12 text-center">
@@ -385,10 +391,10 @@
           </div>
         </div>
         <div class="row supreme_sizes justify-content-center text-center">
-          <div class="col-md-2 size_price lead">Sm 8" - 8.49</div>
-          <div class="col-md-2 size_price lead">Md 12" - 16.99</div>
-          <div class="col-md-2 size_price lead">Lg 14" - 18.99</div>
-          <div class="col-md-2 size_price lead">Xl 16" - 20.99</div>
+          <div class="col-md-2 size_price lead">Sm 8" - <strong>8.49</strong></div>
+          <div class="col-md-2 size_price lead">Md 12" - <strong>16.99</strong></div>
+          <div class="col-md-2 size_price lead">Lg 14" - <strong>18.99</strong></div>
+          <div class="col-md-2 size_price lead">Xl 16" - <strong>20.99</strong></div>
         </div>
 
         <!-- Calzone -->
@@ -400,10 +406,10 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-12">
-            <p class="lead">It's a Pizza in a Pocket!</p>
+            <p class="lead bold">&horbar; 7.99 &horbar;</p>
           </div>
           <div class="col-12">
-            <p class="lead last_item">Just select up to 4 Toppings - 7.99</p>
+            <p class="lead last_item">It's a pizza in a pocket: Includes red sauce and cheese, just choose 4 toppings</p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -412,11 +418,18 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-12 lead">7.99 Each</div>
+          <div class="col-12 lead bold">&horbar; 7.99 Each &horbar;</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-12 lead">Includes 4 breadsticks</div>
         </div>
         <div class="col-10 mx-auto">
           <div class="row menu_item_container justify-content-center mx-auto">
-            <div class="col-lg-2 text-center mb-3">
+            <div class="text-center mb-3">
+              <h4 class="display-4 menu_item">Lasagna &middot; Spaghetti &middot; Chicken Alfredo &middot; Chicken Parmesan &middot; Cheese Ravioli</h4>
+            </div>
+            <!-- Commented out, original pasta spread -->
+            <!-- <div class="col-lg-2 text-center mb-3">
               <h4 class="display-4 menu_item">Lasagna</h4>
             </div>
             <div class="col-lg-2 text-center mb-3">
@@ -430,7 +443,7 @@
             </div>
             <div class="col-lg-2 last_item text-center">
               <h4 class="display-4 menu_item">Cheese Ravioli</h4>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="row justify-content-center">
@@ -440,13 +453,13 @@
         </div>
         <div class="row menu_item_container justify-content-center">
           <div class="col-12 text-center mb-3">
-            <h4 class="display-4 menu_item">Breadsticks (8) <span class="lead">with Sauce - 4.49</span></h4>
+            <h4 class="display-4 menu_item">Breadsticks (8) <span class="lead bold">with Sauce - 4.49</span></h4>
           </div>
           <div class="col-12 text-center mb-3">
-            <h4 class="display-4 menu_item">Cheese Bread (8) <span class="lead">with Sauce - 5.49</span></h4>
+            <h4 class="display-4 menu_item">Cheese Bread (8) <span class="lead bold">with Sauce - 5.49</span></h4>
           </div>
           <div class="col-12 text-center mb-3">
-            <h4 class="display-4 menu_item last_item">Dessert Breadsticks (8) <span class="lead">- 4.99</span></h4>
+            <h4 class="display-4 menu_item last_item">Dessert Breadsticks (8) <span class="lead bold">- 4.99</span></h4>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -458,17 +471,17 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item">10 Pieces <span class="lead">- 8.99</span></h4>
+              <h4 class="display-4 menu_item">10 Pieces <span class="lead bold">- 8.99</span></h4>
             </div>
           </div>
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item">20 Pieces <span class="lead">- 15.99</span></h4>
+              <h4 class="display-4 menu_item">20 Pieces <span class="lead bold">- 15.99</span></h4>
             </div>
           </div>
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item last_item">40 Pieces <span class="lead">- 29.99</span></h4>
+              <h4 class="display-4 menu_item last_item">40 Pieces <span class="lead bold">- 29.99</span></h4>
             </div>
           </div>
         </div>
@@ -482,13 +495,13 @@
             <h4 class="display-4 menu_item">X-Large 1 Topping Pizza</h4>
             <h4 class="display-4 menu_item">40 Wings</h4>
             <h4 class="display-4 menu_item">Order of Breadsticks</h4>
-            <h4 class="lead">39.99</h4>
+            <h4 class="lead bold">&horbar; 39.99 &horbar;</h4>
           </div>
           <div class="col-lg-3">
             <h4 class="display-4 menu_item">Medium 1 Topping Pizza</h4>
             <h4 class="display-4 menu_item">20 Wings</h4>
             <h4 class="display-4 menu_item">Order of Breadsticks</h4>
-            <h4 class="lead last_item">27.99</h4>
+            <h4 class="lead last_item bold">&horbar; 27.99 &horbar;</h4>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -499,11 +512,11 @@
         <div class="row menu_item_container justify-content-center text-center">
           <div class="col-md-2 mb-3">
             <h4 class="display-4 menu_item">Small Salad</h4>
-            <h4 class="lead">3.99</h4>
+            <h4 class="lead bold">&horbar; 3.99 &horbar;</h4>
           </div>
           <div class="col-md-2">
             <h4 class="display-4 menu_item">Large Salad</h4>
-            <h4 class="lead last_item">4.99</h4>
+            <h4 class="lead last_item bold">&horbar; 4.99 &horbar;</h4>
           </div>
         </div>
         <div class="row justify-content-center text-center">
@@ -518,11 +531,16 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
+          <div class="col-12 lead bold">&horbar; 6.99 each &horbar;</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-12 lead">(double meat add $2)</div>
+        </div>
+        <div class="row justify-content-center text-center">
           <div class="col-6">
-            <p class="lead toppings_flavors_info mb-1">All Sandwiches include: </p>
-            <p class="lead toppings_flavors_info mb-1">Pickle Spear &middot; Small Bag of Chips</p>
+            <p class="lead mb-1 mt-3">All Sandwiches include: </p>
+            <p class="lead mb-1">Pickle Spear &middot; Small Bag of Chips</p>
             <p class="lead toppings_flavors_info mb-1">Lettuce &middot; Tomato &middot; Mushrooms &middot; Black Olives &middot; Onions &middot; Cheese</p>
-            <p class="lead toppings_flavors_info last_item">6.99 each! (Double Meat add 2.00)</p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -586,6 +604,7 @@
         <div class="row justify-content-center">
           <div class="col-md-2 menu_item_container text-center mb-3">
             <h4 class="display-4 menu_item">Pizza Sub</h4>
+            <p class="lead">(Choose 2 toppings)</p>
           </div>
           <div class="col-md-2 menu_item_container text-center mb-3">
             <h4 class="display-4 menu_item">Chicken Parmesan</h4>
@@ -614,7 +633,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-6 bot_padding">
-            <h4 class="address display-4 text-center pb-3">Click the car to see if we deliver to your area &nbsp;<a href="img/deliveryAreaOutline.png" target="_blank"><i class="fa fa-car" aria-hidden="true"></i></a></h4>
+            <h4 class="address display-4 text-center pb-3">Click the car to see if we deliver to your area &nbsp;<a href="img/deliveryArea2ps.png" target="_blank"><i class="fa fa-car" aria-hidden="true"></i></a></h4>
           </div>
         </div>
         <div id="contact">
@@ -669,7 +688,7 @@
                 
                 <div class="form-group">
                   <div class="emailInput">
-                      <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                      <input id="email" name="email" type="text" placeholder="Email Address (not required)" class="form-control">
                   </div>
                 </div>
                 <div class="form-group">

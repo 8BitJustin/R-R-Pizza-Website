@@ -82,3 +82,21 @@ Added .png of delivery area to file, linked via car icon
 
 12/26/2017
 Small adjustments to contact area with media queries
+
+12/28/2017
+Moved lunch specials to below Menu heading
+Removed text under Menu heading
+Moved gluten info under the size/sauces table
+Added 'toppings' above toppings
+Created new delivery area pdf to include the RR logo, also added logo to the main map
+
+12/30/2017
+Added text to calzone section
+Added text to pasta section
+Separated pastas with dots
+Added text to pizza sub
+Placed pricing for calzone, pasta, and sandwiches at top just before header
+Added minus signs before/after prices of calzone, pasta and sandwiches
+Created Bold class, added to all prices (alt to increasing size)
+Placed daily special prices under desc, added bold class
+Added strong to Monday and Wed specials, specific text
