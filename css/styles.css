@@ -578,6 +578,9 @@ body {
 /*Menu*/
 
 @media (max-width: 767px) {
+	.lunch_specials_heading {
+		font-size: 1.8em;;
+	}
 	.menu_specialty {
 		font-size: 1.8em;
 		margin-top: 24px;
