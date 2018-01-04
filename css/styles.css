@@ -26,7 +26,7 @@ RR Yellow - #FCE813
 	border-bottom: 1px solid #DB1D00;
 }
 
-.leftDescPara {
+.leftDescPara, .rightDescPara {
 	margin: 0;
 	font-size: 1em;
 }
@@ -34,11 +34,6 @@ RR Yellow - #FCE813
 .midDescPara {
 	margin: 0;
 	font-size: 1em;
-}
-
-.rightDescPara {
-	margin: 0;
-	font-size: .75em;
 }
 
 .midDesc {
