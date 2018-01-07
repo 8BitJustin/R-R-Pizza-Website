@@ -100,3 +100,9 @@ Added minus signs before/after prices of calzone, pasta and sandwiches
 Created Bold class, added to all prices (alt to increasing size)
 Placed daily special prices under desc, added bold class
 Added strong to Monday and Wed specials, specific text
+
+1/7/2018
+Altered daily specials by increasing text sizes and adding drop shadows
+Adjusted the Pick of 2 menu item to be more presentable
+Increased topping and flavor text size, added 'Flavors' to sauce flavors
+Reduced width of sizes shown for pizzas to be same as parent

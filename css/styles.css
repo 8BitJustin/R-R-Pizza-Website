@@ -212,11 +212,16 @@ RR Yellow - #FCE813
 }
 
 .day_header {
-	font-size: 1.75em;
+	font-size: 2.5em;
 }
 
 .day_special {
-	font-size: 1.4em;
+	font-size: 1.5em;
+}
+
+.day_jumbo {
+	font-size: 2.2em;
+	text-shadow: 1px 1px 2px #DB1D00, 0 0 25px #FCE813, 0 0 5px yellow;
 }
 
 .four_days {
@@ -275,11 +280,11 @@ RR Yellow - #FCE813
 
 .toppings_flavors_info {
 	padding-top: 4px;
-	font-size: .875em;
+	font-size: 1.2em;
 }
 
 .toppings {
-
+	font-size: 1.6em;
 	margin-bottom: 0;
 }
 
@@ -311,6 +316,11 @@ RR Yellow - #FCE813
 
 .menu_disclaimer {
 	margin-top: 96px;
+}
+
+.menu_disclaimer_text {
+	padding-top: 4px;
+	font-size: 1.2em;
 }
 
 
@@ -553,10 +563,13 @@ body {
 
 @media (max-width: 767px) {
 	.day_header {
-		font-size: 1.2em;
+		font-size: 1.35em;
 	}
 	.day_special, .day_savings {
 		font-size: .8em;
+	}
+	.day_jumbo {
+		font-size: 1.1em;
 	}
 	.four_days {
 		margin-bottom: 24px;
@@ -591,6 +604,9 @@ body {
 		margin-top: 24px;
 	}
 	.menu-table-item {
+		font-size: .8em;
+	}
+	.toppings_flavors_info, .menu_disclaimer_text {
 		font-size: .8em;
 	}
 	.menu_item {
