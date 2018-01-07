@@ -106,3 +106,4 @@ Altered daily specials by increasing text sizes and adding drop shadows
 Adjusted the Pick of 2 menu item to be more presentable
 Increased topping and flavor text size, added 'Flavors' to sauce flavors
 Reduced width of sizes shown for pizzas to be same as parent
+Added disclaimer to form
