@@ -107,3 +107,7 @@ Adjusted the Pick of 2 menu item to be more presentable
 Increased topping and flavor text size, added 'Flavors' to sauce flavors
 Reduced width of sizes shown for pizzas to be same as parent
 Added disclaimer to form
+
+1/8/2018
+Added 'About Us' text to page
+Increased font size of 'About Us' text
