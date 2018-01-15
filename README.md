@@ -111,3 +111,12 @@ Added disclaimer to form
 1/8/2018
 Added 'About Us' text to page
 Increased font size of 'About Us' text
+
+1/15/2018
+Removed amount saved from specials
+Added years under About Us images
+Altered Pick of 2 text
+Added 'garlic' to first breadstick item
+Added 'toppings' to salad menu item, same as sandwiches
+Changed specialHolder at top to have red background, and white text
+Corrected a few spelling errors

@@ -154,7 +154,8 @@ RR Yellow - #FCE813
 
 .specialHolder {
 	width: 100%;
-	background-color: #4d4d4d;
+	background-color: #DB1D00;
+	color: white;
 }
 
 .specialHolder a {
@@ -162,7 +163,7 @@ RR Yellow - #FCE813
 }
 
 .specialPara {
-	color: #FCE813;
+	color: white;
 	margin: 0;
 	font-size: 1.3em;
 }
@@ -392,15 +393,15 @@ input::-webkit-input-placeholder {
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-	color: #white !important;  
+	color: white !important;  
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
-	color: #white !important;  
+	color: white !important;  
 }
  
 input:-ms-input-placeholder {  
-	color: #white !important;  
+	color: white !important;  
 }
 
 /*Textarea input*/
