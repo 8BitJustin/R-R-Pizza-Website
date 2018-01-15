@@ -119,4 +119,4 @@ Altered Pick of 2 text
 Added 'garlic' to first breadstick item
 Added 'toppings' to salad menu item, same as sandwiches
 Changed specialHolder at top to have red background, and white text
-Corrected a few spelling errors
+Corrected a some spelling errors
