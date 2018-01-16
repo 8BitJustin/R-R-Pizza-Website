@@ -64,8 +64,8 @@ RR Yellow - #FCE813
 }
 
 .navbar-nav li:nth-child(2), li:nth-child(4) {
-	padding-left: 50px;
-	padding-right: 50px;
+	/* padding-left: 50px;
+	padding-right: 50px; */
 }
 
 /*Main Navbar*/

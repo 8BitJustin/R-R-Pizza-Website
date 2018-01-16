@@ -120,3 +120,6 @@ Added 'garlic' to first breadstick item
 Added 'toppings' to salad menu item, same as sandwiches
 Changed specialHolder at top to have red background, and white text
 Corrected a some spelling errors
+
+1/16/2018
+Added 7 new images to site (bread, closeup, cutting, dining_room, sammich, and toppings added to slide. clock input as new specials background)
