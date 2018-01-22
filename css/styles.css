@@ -63,9 +63,9 @@ RR Yellow - #FCE813
 	font-size: 1.5em;
 }
 
-.navbar-nav li:nth-child(2), li:nth-child(4) {
-	/* padding-left: 50px;
-	padding-right: 50px; */
+.navbar-nav .nav-item:nth-child(2), .nav-item:nth-child(4) {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /*Main Navbar*/
@@ -186,10 +186,12 @@ RR Yellow - #FCE813
 
 #aboutLeftImg {
 	border-radius: 15px 0 0 50px;
+	border-right: 2px solid white;
 }
 
 #aboutRightImg {
 	border-radius: 0 50px 15px 0;
+	border-left: 2px solid white;
 }
 
 .aboutPara {

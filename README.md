@@ -123,3 +123,9 @@ Corrected a some spelling errors
 
 1/16/2018
 Added 7 new images to site (bread, closeup, cutting, dining_room, sammich, and toppings added to slide. clock input as new specials background)
+
+1/21/2018
+Many images updates/changes.
+Added white sauce image, clock, pepperoni zoomed out, and veggie images to slider.
+Changed about us images to interior before/after pics.
+Changed specials background to dark pepperoni pizza.
