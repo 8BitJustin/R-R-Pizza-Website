@@ -33,7 +33,7 @@
         <div class="col-md-3 col-5 midDesc text-center">
           <p class="midDescPara lead pt-2">Marana, AZ</p>
           <p class="midDescPara lead"><a href="tel:1-520-682-2022">520-682-2022</a></p>
-          <p class="midDescPara lead pb-2">M-Sat: 11a-9p</p>          
+          <p class="midDescPara lead pb-2">M-Sat: 11a-9p</p>
         </div>
 
         <div class="col-lg-2 col-md-3 col-5 logoDiv text-center"><img src="img/logo.png" alt=""></div>
@@ -234,7 +234,7 @@
             <div class="day_jumbo text-center lead">Only 26.99</div>
           </div>
         </div>
-        
+
       </div>
 
       <!-- Menu -->
@@ -274,7 +274,7 @@
             <h4 class="menu_specialty display-4">Pizza</h4>
             <p class="lead toppings">Toppings</p>
             <p class="toppings_flavors_info lead">Anchovy &middot; Bacon &middot; Banana Pepper &middot; Bell Pepper &middot; Black Olive &middot; Brocolli &middot; Canadian Bacon &middot; Chicken (counts as 2 toppings) &middot; Extra Cheese &middot; Green Chile &middot; Ground Beef &middot; Garlic &middot; Jalapeno &middot; Mushroom &middot; Red Onion &middot; Pepperoni &middot; Pineapple &middot; Sausage &middot; Shrimp &middot; Spinach &middot; Tomato</p>
-            
+
           </div>
         </div>
         <div class="row justify-content-center mt-3">
@@ -486,13 +486,13 @@
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
-          <div class="col-12 text-center mb-3">
+          <div class="col-md-3 text-center mb-3">
             <h4 class="display-4 menu_item">Garlic Breadsticks (8) <span class="lead bold">with Sauce - 4.49</span></h4>
           </div>
-          <div class="col-12 text-center mb-3">
+          <div class="col-md-3 text-center mb-3">
             <h4 class="display-4 menu_item">Cheese Breadsticks (8) <span class="lead bold">with Sauce - 5.49</span></h4>
           </div>
-          <div class="col-12 text-center mb-3">
+          <div class="col-md-3 text-center mb-3">
             <h4 class="display-4 menu_item last_item">Dessert Breadsticks (8) <span class="lead bold">- 4.99</span></h4>
           </div>
         </div>
@@ -692,7 +692,7 @@
           <iframe src="https://snazzymaps.com/embed/35223" width="100%" height="500px" style="border:none;"></iframe>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-5">
+          <div class="col-md-3">
             <div class="row justify-content-center">
               <div class="col-md-12 hours_heading">
                 <h1 class="display-4 text-center slide_header">How to Reach Us</h1>
@@ -705,7 +705,20 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-3">
+            <div class="row justify-content-center">
+              <div class="col-md-12 hours_heading">
+                <h1 class="display-4 text-center slide_header">Employment</h1>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-10 text-center">
+                <h4 class="contact_job display-4 text-center pb-4">Looking for employment opportunities, please click below!</h4>
+                <button type="button" class="btn btn-outline-light app-btn"><p class="lead"><a href="files/RRApplication.pdf" target="_blank">Application</a></p></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
             <div class="row justify-content-center">
               <div class="col-md-12 hours_heading">
                 <h1 class="display-4 text-center slide_header">Hours of Operation</h1>
@@ -738,7 +751,6 @@
                       <input id="fname" name="name" type="text" placeholder="Name" class="form-control">
                   </div>
                 </div>
-                
                 <div class="form-group">
                   <div class="emailInput">
                       <input id="email" name="email" type="text" placeholder="Email Address (not required)" class="form-control">
@@ -827,7 +839,7 @@
 
     <!-- Smooth Scrolling - https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
     <script>
-      
+
       $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
@@ -835,8 +847,8 @@
         .click(function(event) {
           // On-page links
           if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-            && 
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+            &&
             location.hostname == this.hostname
           ) {
             // Figure out element to scroll to
@@ -873,7 +885,7 @@
       window.onscroll = function() {
         var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
         if (scrollTop >= document.getElementById("about").offsetTop -10) {
-          // The -80 will make the navbar appear 75px above the #about section
+          // The -10 will make the navbar appear 75px above the #about section
           $('.main-nav').fadeIn(100);
           $('.main-nav').addClass('navbar-fixed');
         } else {

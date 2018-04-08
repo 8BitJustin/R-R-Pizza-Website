@@ -129,3 +129,10 @@ Many images updates/changes.
 Added white sauce image, clock, pepperoni zoomed out, and veggie images to slider.
 Changed about us images to interior before/after pics.
 Changed specials background to dark pepperoni pizza.
+
+4/8/2018
+Few updates
+Added Files file for application
+Added application button and text to index.html
+Added appropriate CSS for button, including margin, and a tag color/decoration
+Per client request, made breadsticks share same line. Instead of col-12, went with col-md-3.
