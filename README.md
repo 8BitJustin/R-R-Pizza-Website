@@ -1,4 +1,5 @@
 # R-R-Pizza-Website
+
 Current project for local pizza company, R & R Pizza Express Marana
 
 Updates:
@@ -136,3 +137,6 @@ Added Files file for application
 Added application button and text to index.html
 Added appropriate CSS for button, including margin, and a tag color/decoration
 Per client request, made breadsticks share same line. Instead of col-12, went with col-md-3.
+
+1/6/2020
+Small html changes, spacing mainly.
