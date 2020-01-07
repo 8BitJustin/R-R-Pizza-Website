@@ -140,3 +140,7 @@ Per client request, made breadsticks share same line. Instead of col-12, went wi
 
 1/6/2020
 Small html changes, spacing mainly.
+
+1/7/2020 (Prices Update)
+Updated most prices for items
+Added comment heading for lunch specials for easier location
