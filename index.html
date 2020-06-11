@@ -1,29 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>R and R Pizza Marana</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
 
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome Script -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"
+    ></script>
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
-
     <!-- Site Container -->
     <div class="container-fluid siteContainer px-0 mx-0">
-
       <!-- Logo Header -->
-      <div class="row logoHeader mx-0 align-items-center justify-content-center" id="home">
+      <div
+        class="row logoHeader mx-0 align-items-center justify-content-center"
+        id="home"
+      >
         <div class="col-lg-2 col-md-3 leftDesc text-center">
           <p class="leftDescPara lead py-1">Dine-in, Carry Out, and</p>
           <p class="leftDescPara lead pb-1">Delivery since 1996</p>
@@ -32,21 +43,28 @@
 
         <div class="col-md-3 col-5 midDesc text-center">
           <p class="midDescPara lead pt-2">Marana, AZ</p>
-          <p class="midDescPara lead"><a href="tel:1-520-682-2022">520-682-2022</a></p>
+          <p class="midDescPara lead">
+            <a href="tel:1-520-682-2022">520-682-2022</a>
+          </p>
           <p class="midDescPara lead pb-2">M-Sat: 11a-9p</p>
         </div>
 
-        <div class="col-lg-2 col-md-3 col-5 logoDiv text-center"><img src="img/logo.png" alt=""></div>
+        <div class="col-lg-2 col-md-3 col-5 logoDiv text-center">
+          <img src="img/logo.png" alt="" />
+        </div>
         <div class="col-lg-2 col-md-3 rightDesc text-center">
           <p class="rightDescPara lead py-1">13905 N. Sandario Road</p>
           <p class="rightDescPara lead pb-1">Marana, AZ 85653</p>
           <p class="rightDescPara lead pb-1">Mon - Sat: 11 a.m. to 9 p.m.</p>
         </div>
-      </div> <!-- /Logo Header -->
+      </div>
+      <!-- /Logo Header -->
 
       <!-- Navbar Overlay -->
       <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
         <div class="overlay-content">
           <a href="#home" onclick="closeNav()">Home</a>
           <a href="#about" onclick="closeNav()">About Us</a>
@@ -54,17 +72,23 @@
           <a href="#menu" onclick="closeNav()">Menu</a>
           <a href="#contact" onclick="closeNav()">Location &amp; Contact</a>
         </div>
-      </div> <!-- Navbar Overlay -->
+      </div>
+      <!-- Navbar Overlay -->
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-md navbar-light">
         <button class="navbar-toggler" type="button" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link lead" href="#home">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link lead" href="#home"
+                >Home<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link lead" href="#about">About</a>
@@ -76,29 +100,55 @@
               <a class="nav-link lead" href="#menu">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lead" href="#contact">Location &amp; Contact</a>
+              <a class="nav-link lead" href="#contact"
+                >Location &amp; Contact</a
+              >
             </li>
           </ul>
         </div>
-      </nav> <!-- /Navbar -->
+      </nav>
+      <!-- /Navbar -->
 
       <!-- Rotating Special Section -->
-      <div class="specialHolder mt-3"> <!-- Div for rotating daily special -->
-        <a href="#specials"> <!-- Added 'a tag' to make Specials bar clickable to trans to Specials section -->
-          <div class="row specialDaily mx-0 justify-content-center text-center px-3 py-1">
-            <p class="specialPara lead 0" style="display: none">We are unfortunately closed on Sundays</p>
-            <p class="specialPara lead 1" style="display: none">Monday Special: Free Sticks! Buy any X-Large Pizza at Regular Price &amp; Get FREE Breadsticks!</p>
-            <p class="specialPara lead 2" style="display: none">Tuesday Special: 2 Medium Pizzas with 2 Toppings only 17.99</p>
-            <p class="specialPara lead 3" style="display: none">Wednesday Special: Buy any X-Large Pizza at Regular Price &amp; Get a Second Pizza (of equal or lesser value) 1/2 Price!</p>
-            <p class="specialPara lead 4" style="display: none">Thursday Special: X-Large Pizza with 4 Toppings only 16.99</p>
-            <p class="specialPara lead 5" style="display: none">Friday Special: X-Large Pizza with up to 3 Toppings, Large Salad, 2 Liter Drink only 20.99</p>
-            <p class="specialPara lead 6" style="display: none">Saturday Special: 2 X-Large Pizzas with 1 Topping Each only 26.99</p>
+      <div class="specialHolder mt-3">
+        <!-- Div for rotating daily special -->
+        <a href="#specials">
+          <!-- Added 'a tag' to make Specials bar clickable to trans to Specials section -->
+          <div
+            class="row specialDaily mx-0 justify-content-center text-center px-3 py-1"
+          >
+            <p class="specialPara lead 0" style="display: none;">
+              We are unfortunately closed on Sundays
+            </p>
+            <p class="specialPara lead 1" style="display: none;">
+              Monday Special: Free Sticks! Buy any X-Large Pizza at Regular
+              Price &amp; Get FREE Breadsticks!
+            </p>
+            <p class="specialPara lead 2" style="display: none;">
+              Tuesday Special: 2 Medium Pizzas with 2 Toppings only 17.99
+            </p>
+            <p class="specialPara lead 3" style="display: none;">
+              Wednesday Special: Buy any X-Large Pizza at Regular Price &amp;
+              Get a Second Pizza (of equal or lesser value) 1/2 Price!
+            </p>
+            <p class="specialPara lead 4" style="display: none;">
+              Thursday Special: X-Large Pizza with 4 Toppings only 16.99
+            </p>
+            <p class="specialPara lead 5" style="display: none;">
+              Friday Special: X-Large Pizza with up to 3 Toppings, Large Salad,
+              2 Liter Drink only 20.99
+            </p>
+            <p class="specialPara lead 6" style="display: none;">
+              Saturday Special: 2 X-Large Pizzas with 1 Topping Each only 26.99
+            </p>
           </div>
         </a>
-      </div> <!-- /Div for rotating daily special -->
+      </div>
+      <!-- /Div for rotating daily special -->
 
       <!-- Carousel Section -->
-      <div id="demo" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Carousel -->
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -112,19 +162,19 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/white_sauce.png" alt="">
+            <img src="img/white_sauce.png" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="img/clock_slider.png" alt="">
+            <img src="img/clock_slider.png" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="img/pepperoni.png" alt="">
+            <img src="img/pepperoni.png" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="img/veggie_slider.png" alt="">
+            <img src="img/veggie_slider.png" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="img/bread.png" alt="">
+            <img src="img/bread.png" alt="" />
           </div>
         </div>
 
@@ -135,34 +185,48 @@
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
-
-      </div> <!-- /Carousel -->
+      </div>
+      <!-- /Carousel -->
 
       <!-- Main Nav -->
-      <nav class="main-nav navbar navbar-expand-md navbar-light mt-0" style="display: none"> <!-- Main Navbar -->
+      <nav
+        class="main-nav navbar navbar-expand-md navbar-light mt-0"
+        style="display: none;"
+      >
+        <!-- Main Navbar -->
         <button class="navbar-toggler" type="button" onclick="openNav()">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item px-3">
-              <a class="nav-link main-nav-link lead" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link main-nav-link lead" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item px-3">
               <a class="nav-link main-nav-link lead" href="#about">About</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link main-nav-link lead" href="#specials">Specials</a>
+              <a class="nav-link main-nav-link lead" href="#specials"
+                >Specials</a
+              >
             </li>
             <li class="nav-item px-3">
               <a class="nav-link main-nav-link lead" href="#menu">Menu</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link main-nav-link lead" href="#contact">Location &amp; Contact</a>
+              <a class="nav-link main-nav-link lead" href="#contact"
+                >Location &amp; Contact</a
+              >
             </li>
           </ul>
         </div>
-      </nav> <!-- /Main Navbar -->
+      </nav>
+      <!-- /Main Navbar -->
 
       <!-- About Section -->
       <div class="aboutUs sections" id="about">
@@ -173,68 +237,123 @@
         </div>
         <div class="row justify-content-center mx-auto">
           <div class="col-lg-3 col-6 pl-3 pr-0">
-            <img src="img/interior_1996.png" class="aboutImg img-fluid" id="aboutLeftImg" alt="">
+            <img
+              src="img/interior_1996.png"
+              class="aboutImg img-fluid"
+              id="aboutLeftImg"
+              alt=""
+            />
             <p class="lead text-center">&ltri;1996&rtri;</p>
           </div>
           <div class="col-lg-3 col-6 pr-3 pl-0">
-            <img src="img/interior_2018.png" class="aboutImg img-fluid" id="aboutRightImg" alt="">
+            <img
+              src="img/interior_2018.png"
+              class="aboutImg img-fluid"
+              id="aboutRightImg"
+              alt=""
+            />
             <h4 class="lead text-center">&ltri;2018&rtri;</h4>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-6 col-12 px-4 aboutPara lastSectionItem lead mt-5 text-center">
-            <p>In December of 1996, we opened R&amp;R Pizza Express. As Marana continues to grow, we do too. We’ve expanded and remodeled through the years to accommodate the community. Every morning we cut fresh vegetables and prepare our dough in house which has awarded us the best pizza in Tucson twice.</p>
-            <p>Family owned and operated, we promise to always serve the highest quality product we can.</p>
+          <div
+            class="col-lg-6 col-12 px-4 aboutPara lastSectionItem lead mt-5 text-center"
+          >
+            <p>
+              In December of 1996, we opened R&amp;R Pizza Express. As Marana
+              continues to grow, we do too. We’ve expanded and remodeled through
+              the years to accommodate the community. Every morning we cut fresh
+              vegetables and prepare our dough in house which has awarded us the
+              best pizza in Tucson twice.
+            </p>
+            <p>
+              Family owned and operated, we promise to always serve the highest
+              quality product we can.
+            </p>
             <p>Come down today and try for yourself!</p>
           </div>
-
         </div>
       </div>
 
       <!-- Specials Section -->
-      <div class="specials sections lastSectionItem" data-parallax="scroll" data-speed="0.3" data-image-src="img/dark_close_up.png" id="specials">
+      <div
+        class="specials sections lastSectionItem"
+        data-parallax="scroll"
+        data-speed="0.3"
+        data-image-src="img/dark_close_up.png"
+        id="specials"
+      >
         <div class="row justify-content-center">
           <div class="col-md-4 col-8">
-            <h1 class="display-4 text-center slide_header">Our Daily Specials</h1>
+            <h1 class="display-4 text-center slide_header">
+              Our Daily Specials
+            </h1>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 col-10 dayContainer four_days py-2">
-            <div class="day_header text-center display-4 pb-3">Monday's Special</div>
-            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price &amp; Get a</div>
-            <div class="day_jumbo text-center lead">Free Order of Breadsticks</div>
+            <div class="day_header text-center display-4 pb-3">
+              Monday's Special
+            </div>
+            <div class="day_special text-center lead">
+              Buy any X-Large Pizza at Regular Price &amp; Get a
+            </div>
+            <div class="day_jumbo text-center lead">
+              Free Order of Breadsticks
+            </div>
           </div>
           <div class="col-md-4 col-10 dayContainer four_days py-2">
-            <div class="day_header text-center display-4 pb-3">Tuesday's Special</div>
-            <div class="day_special text-center lead">2 Medium Pizzas with 2 Toppings</div>
+            <div class="day_header text-center display-4 pb-3">
+              Tuesday's Special
+            </div>
+            <div class="day_special text-center lead">
+              2 Medium Pizzas with 2 Toppings
+            </div>
             <div class="day_jumbo text-center lead">Only 17.99</div>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 col-10 dayContainer four_days py-2">
-            <div class="day_header text-center display-4 pb-3">Wednesday's Special</div>
-            <div class="day_special text-center lead">Buy any X-Large Pizza at Regular Price &amp; get a Second Pizza (of equal or lesser value)</div>
+            <div class="day_header text-center display-4 pb-3">
+              Wednesday's Special
+            </div>
+            <div class="day_special text-center lead">
+              Buy any X-Large Pizza at Regular Price &amp; get a Second Pizza
+              (of equal or lesser value)
+            </div>
             <div class="day_jumbo text-center lead">1/2 Price</div>
           </div>
           <div class="col-md-4 col-10 dayContainer four_days py-2">
-            <div class="day_header text-center display-4 pb-3">Thursday's Special</div>
-            <div class="day_special text-center lead">X-Large Pizza with 4 Toppings</div>
+            <div class="day_header text-center display-4 pb-3">
+              Thursday's Special
+            </div>
+            <div class="day_special text-center lead">
+              X-Large Pizza with 4 Toppings
+            </div>
             <div class="day_jumbo text-center lead">Only 16.99</div>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 col-10 dayContainer specialMarginAdd py-2">
-            <div class="day_header text-center display-4 pb-3">Friday's Special</div>
-            <div class="day_special text-center lead">X-Large Pizza with up to 3 Toppings, Large Salad, &amp; 2 Liter Drink</div>
+            <div class="day_header text-center display-4 pb-3">
+              Friday's Special
+            </div>
+            <div class="day_special text-center lead">
+              X-Large Pizza with up to 3 Toppings, Large Salad, &amp; 2 Liter
+              Drink
+            </div>
             <div class="day_jumbo text-center lead">Only 20.99</div>
           </div>
           <div class="col-md-4 col-10 dayContainer py-2">
-            <div class="day_header text-center display-4 pb-3">Saturday's Special</div>
-            <div class="day_special text-center lead">2 X-Large Pizzas with 1 Topping Each</div>
+            <div class="day_header text-center display-4 pb-3">
+              Saturday's Special
+            </div>
+            <div class="day_special text-center lead">
+              2 X-Large Pizzas with 1 Topping Each
+            </div>
             <div class="day_jumbo text-center lead">Only 26.99</div>
           </div>
         </div>
-
       </div>
 
       <!-- Menu -->
@@ -244,8 +363,12 @@
             <h1 class="display-4 text-center slide_header">Our Menu</h1>
             <div class="row justify-content-center">
               <div class="col-12">
-                <h1 class="display-4 text-center lunch_specials_heading">Lunch Specials</h1>
-                <h4 class="display-4 text-center sub_heading">(11 a.m. - 4 p.m.)</h4>
+                <h1 class="display-4 text-center lunch_specials_heading">
+                  Lunch Specials
+                </h1>
+                <h4 class="display-4 text-center sub_heading">
+                  (11 a.m. - 4 p.m.)
+                </h4>
               </div>
             </div>
             <!-- Lunch Specials -->
@@ -255,16 +378,25 @@
                 <p class="lead bold">&horbar; 2.27 &horbar;</p>
               </div>
               <div class="col-12 text-center mb-3">
-                <h4 class="display-4 special_item">2 Slice &amp; Drink Combo - 1 Topping</h4>
+                <h4 class="display-4 special_item">
+                  2 Slice &amp; Drink Combo - 1 Topping
+                </h4>
                 <p class="lead bold">&horbar; 5.27 &horbar;</p>
               </div>
               <div class="col-12 text-center mb-3">
-                <h4 class="display-4 special_item">1 Slice, 6 wings &amp; Drink Combo - 1 Topping</h4>
+                <h4 class="display-4 special_item">
+                  1 Slice, 6 wings &amp; Drink Combo - 1 Topping
+                </h4>
                 <p class="lead bold">&horbar; 6.00 &horbar;</p>
               </div>
               <div class="col-12 text-center mb-3">
-                <h4 class="display-4 special_item">Pick any 2 items (Includes Drink):</h4>
-                <h4 class="display-4 special_item">1 Slice &middot; 6 Wings &middot; Side Salad &middot; 4 Breadsticks</h4>
+                <h4 class="display-4 special_item">
+                  Pick any 2 items (Includes Drink):
+                </h4>
+                <h4 class="display-4 special_item">
+                  1 Slice &middot; 6 Wings &middot; Side Salad &middot; 4
+                  Breadsticks
+                </h4>
                 <p class="lead bold">&horbar; 6.00 &horbar;</p>
               </div>
             </div>
@@ -274,8 +406,15 @@
           <div class="col-md-6 text-center">
             <h4 class="menu_specialty display-4">Pizza</h4>
             <p class="lead toppings">Toppings</p>
-            <p class="toppings_flavors_info lead">Anchovy &middot; Bacon &middot; Banana Pepper &middot; Bell Pepper &middot; Black Olive &middot; Brocolli &middot; Canadian Bacon &middot; Chicken (counts as 2 toppings) &middot; Extra Cheese &middot; Green Chile &middot; Ground Beef &middot; Garlic &middot; Jalapeno &middot; Mushroom &middot; Red Onion &middot; Pepperoni &middot; Pineapple &middot; Sausage &middot; Shrimp &middot; Spinach &middot; Tomato</p>
-
+            <p class="toppings_flavors_info lead">
+              Anchovy &middot; Bacon &middot; Banana Pepper &middot; Bell Pepper
+              &middot; Black Olive &middot; Broccoli &middot; Canadian Bacon
+              &middot; Chicken (counts as 2 toppings) &middot; Extra Cheese
+              &middot; Green Chile &middot; Ground Beef &middot; Garlic &middot;
+              Jalapeno &middot; Mushroom &middot; Red Onion &middot; Pepperoni
+              &middot; Pineapple &middot; Sausage &middot; Shrimp &middot;
+              Spinach &middot; Tomato
+            </p>
           </div>
         </div>
         <div class="row justify-content-center mt-3">
@@ -299,14 +438,18 @@
                   <td class="lead menu-table-item bold">14.99</td>
                 </tr>
                 <tr>
-                  <th scope="row" class="lead menu-table-item">Each Addl. Topping</th>
+                  <th scope="row" class="lead menu-table-item">
+                    Each Addl. Topping
+                  </th>
                   <td class="lead menu-table-item bold">.70</td>
                   <td class="lead menu-table-item bold">1.59</td>
                   <td class="lead menu-table-item bold">1.79</td>
                   <td class="lead menu-table-item bold">1.99</td>
                 </tr>
                 <tr>
-                  <th scope="row" class="lead menu-table-item">Premium Sauces (White Sauce, Alfredo, BBQ)</th>
+                  <th scope="row" class="lead menu-table-item">
+                    Premium Sauces (White Sauce, Alfredo, BBQ)
+                  </th>
                   <td class="lead menu-table-item bold">.50</td>
                   <td class="lead menu-table-item bold">.75</td>
                   <td class="lead menu-table-item bold">1.00</td>
@@ -314,7 +457,9 @@
                 </tr>
               </tbody>
             </table>
-            <p class="lead text-center">Gluten free crust available for $2.50 extra *Medium size only</p>
+            <p class="lead text-center">
+              Gluten free crust available for $2.50 extra *Medium size only
+            </p>
           </div>
         </div>
 
@@ -328,10 +473,18 @@
         <div class="row justify-content-center text-center">
           <div class="col-md-6">
             <div class="row justify-content-center">
-            <div class="col-md-3 size_price lead">Sm 8" - <strong>7.49</strong></div>
-            <div class="col-md-3 size_price lead">Md 12" - <strong>15.99</strong></div>
-            <div class="col-md-3 size_price lead">Lg 14" - <strong>17.99</strong></div>
-            <div class="col-md-3 size_price lead">Xl 16" - <strong>19.99</strong></div>
+              <div class="col-md-3 size_price lead">
+                Sm 8" - <strong>7.49</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Md 12" - <strong>15.99</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Lg 14" - <strong>17.99</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Xl 16" - <strong>19.99</strong>
+              </div>
             </div>
           </div>
         </div>
@@ -340,7 +493,10 @@
             <h4 class="display-4 menu_item">Meat Lover</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Pepperoni &middot; Canadian Bacon &middot; Beef &middot; Sausage &middot; Bacon</h6>
+            <h6 class="menu_item_desc lead">
+              Pepperoni &middot; Canadian Bacon &middot; Beef &middot; Sausage
+              &middot; Bacon
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -348,7 +504,10 @@
             <h4 class="display-4 menu_item">Veggie</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Tomato &middot; Mushroom &middot; Red Onion &middot; Bell Pepper &middot; Black Olive</h6>
+            <h6 class="menu_item_desc lead">
+              Tomato &middot; Mushroom &middot; Broccoli &middot; Red Onion
+              &middot; Bell Pepper &middot; Black Olive
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -356,7 +515,10 @@
             <h4 class="display-4 menu_item">Combo</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Pepperoni &middot; Sausage &middot; Mushroom &middot; Red Onion &middot;  Bell Pepper &middot; Black Olive</h6>
+            <h6 class="menu_item_desc lead">
+              Pepperoni &middot; Sausage &middot; Mushroom &middot; Red Onion
+              &middot; Bell Pepper &middot; Black Olive
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -364,7 +526,10 @@
             <h4 class="display-4 menu_item">Signature White Sauce</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">With our Signature White Sauce &middot; Chicken &middot; Bacon &middot; Mushroom &middot; Red Onion</h6>
+            <h6 class="menu_item_desc lead">
+              With our Signature White Sauce &middot; Chicken &middot; Bacon
+              &middot; Mushroom &middot; Red Onion
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -372,7 +537,10 @@
             <h4 class="display-4 menu_item">Buffalo Chicken Ranch</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Chicken &middot; Red Onion &middot; Bell Pepper &middot; Banana Pepper &middot; Topped w/ Red Hot and Ranch Sauce</h6>
+            <h6 class="menu_item_desc lead">
+              Chicken &middot; Red Onion &middot; Bell Pepper &middot; Banana
+              Pepper &middot; Topped w/ Red Hot and Ranch Sauce
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -380,7 +548,9 @@
             <h4 class="display-4 menu_item">BBQ Chicken</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">BBQ Sauce &middot; Red Onion &middot; Bacon &middot; Chicken</h6>
+            <h6 class="menu_item_desc lead">
+              BBQ Sauce &middot; Red Onion &middot; Bacon &middot; Chicken
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -388,7 +558,10 @@
             <h4 class="display-4 menu_item">Chicken Cordon Bleu</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Alfredo Sauce &middot; Chicken &middot; Canadian Bacon &middot; Red Onion</h6>
+            <h6 class="menu_item_desc lead">
+              Alfredo Sauce &middot; Chicken &middot; Canadian Bacon &middot;
+              Red Onion
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -396,7 +569,10 @@
             <h4 class="display-4 menu_item">Spinach Garden</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">With our Signature White Sauce &middot; Spinach &middot; Garlic &middot; Tomato &middot; Red Onion</h6>
+            <h6 class="menu_item_desc lead">
+              With our Signature White Sauce &middot; Spinach &middot; Garlic
+              &middot; Tomato &middot; Red Onion
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -404,7 +580,10 @@
             <h4 class="display-4 menu_item">Taco</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Beef &middot; Tomato &middot; Red Onion &middot; Bell Pepper &middot; Green Chile</h6>
+            <h6 class="menu_item_desc lead">
+              Beef &middot; Tomato &middot; Red Onion &middot; Bell Pepper
+              &middot; Green Chile
+            </h6>
           </div>
         </div>
         <div class="row menu_item_container justify-content-center">
@@ -412,16 +591,28 @@
             <h4 class="display-4 menu_item">Supreme</h4>
           </div>
           <div class="col-12 text-center">
-            <h6 class="menu_item_desc lead">Pepperoni &middot; Canadian Bacon &middot; Beef &middot; Sausage &middot; Mushroom &middot; Red Onion &middot; Bell Pepper &middot; Black Olive</h6>
+            <h6 class="menu_item_desc lead">
+              Pepperoni &middot; Canadian Bacon &middot; Beef &middot; Sausage
+              &middot; Mushroom &middot; Red Onion &middot; Bell Pepper &middot;
+              Black Olive
+            </h6>
           </div>
         </div>
         <div class="row supreme_sizes justify-content-center text-center">
           <div class="col-md-6">
             <div class="row justify-content-center">
-            <div class="col-md-3 size_price lead">Sm 8" - <strong>8.49</strong></div>
-            <div class="col-md-3 size_price lead">Md 12" - <strong>16.99</strong></div>
-            <div class="col-md-3 size_price lead">Lg 14" - <strong>18.99</strong></div>
-            <div class="col-md-3 size_price lead">Xl 16" - <strong>20.99</strong></div>
+              <div class="col-md-3 size_price lead">
+                Sm 8" - <strong>8.49</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Md 12" - <strong>16.99</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Lg 14" - <strong>18.99</strong>
+              </div>
+              <div class="col-md-3 size_price lead">
+                Xl 16" - <strong>20.99</strong>
+              </div>
             </div>
           </div>
         </div>
@@ -438,7 +629,10 @@
             <p class="lead bold">&horbar; 8.99 &horbar;</p>
           </div>
           <div class="col-12">
-            <p class="lead last_item">It's a pizza in a pocket: Includes red sauce and cheese, just choose 4 toppings</p>
+            <p class="lead last_item">
+              It's a pizza in a pocket: Includes red sauce and cheese, just
+              choose 4 toppings
+            </p>
           </div>
         </div>
 
@@ -458,7 +652,10 @@
         <div class="col-10 mx-auto">
           <div class="row menu_item_container justify-content-center mx-auto">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item">Lasagna &middot; Spaghetti &middot; Chicken Alfredo &middot; Chicken Parmesan &middot; Cheese Ravioli</h4>
+              <h4 class="display-4 menu_item">
+                Lasagna &middot; Spaghetti &middot; Chicken Alfredo &middot;
+                Chicken Parmesan &middot; Cheese Ravioli
+              </h4>
             </div>
             <!-- Commented out, original pasta spread -->
             <!-- <div class="col-lg-2 text-center mb-3">
@@ -496,7 +693,9 @@
             <span class="lead bold">with Sauce - 5.99</span>
           </div>
           <div class="col-md-2 text-center mb-3">
-            <h4 class="display-4 menu_item last_item">Dessert Breadsticks (8)</h4>
+            <h4 class="display-4 menu_item last_item">
+              Dessert Breadsticks (8)
+            </h4>
             <span class="lead bold">5.49</span>
           </div>
         </div>
@@ -507,23 +706,33 @@
           <div class="col-md-6 text-center">
             <h4 class="menu_specialty display-4">Buffalo Wings</h4>
             <p class="lead toppings">Flavors</p>
-            <p class="toppings_flavors_info lead">Mild &middot; Hot &middot; Extra Hot &middot; BBQ &middot; Hot BBQ &middot; Teriyaki &middot; Honey Mustard &middot; Hot Honey Mustard &middot; Honey Hot &middot; Garlic Parmesan</p>
+            <p class="toppings_flavors_info lead">
+              Mild &middot; Hot &middot; Extra Hot &middot; BBQ &middot; Hot BBQ
+              &middot; Teriyaki &middot; Honey Mustard &middot; Hot Honey
+              Mustard &middot; Honey Hot &middot; Garlic Parmesan
+            </p>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item">10 Pieces <span class="lead bold">- 9.99</span></h4>
+              <h4 class="display-4 menu_item">
+                10 Pieces <span class="lead bold">- 9.99</span>
+              </h4>
             </div>
           </div>
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item">20 Pieces <span class="lead bold">- 17.99</span></h4>
+              <h4 class="display-4 menu_item">
+                20 Pieces <span class="lead bold">- 17.99</span>
+              </h4>
             </div>
           </div>
           <div class="col-md-2">
             <div class="text-center mb-3">
-              <h4 class="display-4 menu_item last_item">40 Pieces <span class="lead bold">- 34.99</span></h4>
+              <h4 class="display-4 menu_item last_item">
+                40 Pieces <span class="lead bold">- 34.99</span>
+              </h4>
             </div>
           </div>
         </div>
@@ -558,10 +767,13 @@
           </div>
         </div>
         <div class="row justify-content-center text-center">
-            <div class="col-6">
-              <p class="lead toppings_flavors_info mb-1">Lettuce &middot; Tomato &middot; Mushrooms &middot; Black Olives &middot; Onions &middot; Cheese</p>
-            </div>
+          <div class="col-6">
+            <p class="lead toppings_flavors_info mb-1">
+              Lettuce &middot; Tomato &middot; Mushrooms &middot; Black Olives
+              &middot; Onions &middot; Cheese
+            </p>
           </div>
+        </div>
         <div class="row menu_item_container justify-content-center text-center">
           <div class="col-md-2 mb-3">
             <h4 class="display-4 menu_item">Small Salad</h4>
@@ -574,8 +786,13 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-6">
-            <p class="lead toppings_flavors_info mb-1">Add a portion of Pepperoni or Ham for just 1.00 or 1.50 for the large</p>
-            <p class="lead toppings_flavors_info last_item">Add a portion of Turkey or Chicken for 2.00 extra</p>
+            <p class="lead toppings_flavors_info mb-1">
+              Add a portion of Pepperoni or Ham for just 1.00 or 1.50 for the
+              large
+            </p>
+            <p class="lead toppings_flavors_info last_item">
+              Add a portion of Turkey or Chicken for 2.00 extra
+            </p>
           </div>
         </div>
 
@@ -594,9 +811,12 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-6">
-            <p class="lead mb-1 mt-3">All Sandwiches include: </p>
+            <p class="lead mb-1 mt-3">All Sandwiches include:</p>
             <p class="lead mb-1">Pickle Spear &middot; Small Bag of Chips</p>
-            <p class="lead toppings_flavors_info mb-1">Lettuce &middot; Tomato &middot; Mushrooms &middot; Black Olives &middot; Onions &middot; Cheese</p>
+            <p class="lead toppings_flavors_info mb-1">
+              Lettuce &middot; Tomato &middot; Mushrooms &middot; Black Olives
+              &middot; Onions &middot; Cheese
+            </p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -668,8 +888,13 @@
         </div>
         <div class="row justify-content-center menu_disclaimer">
           <div class="col-md-8 text-center">
-            <p class="lead menu_disclaimer_text mb-1">Prices and availability subject to change without notice.</p>
-            <p class="lead menu_disclaimer_text mb-1">R &amp; R Pizza Express uses only top quality ingredients, including 100% real cheese.</p>
+            <p class="lead menu_disclaimer_text mb-1">
+              Prices and availability subject to change without notice.
+            </p>
+            <p class="lead menu_disclaimer_text mb-1">
+              R &amp; R Pizza Express uses only top quality ingredients,
+              including 100% real cheese.
+            </p>
           </div>
         </div>
       </div>
@@ -683,29 +908,48 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-6">
-            <h4 class="address display-4 text-center pb-1">13905 North Sandario Road</h4>
+            <h4 class="address display-4 text-center pb-1">
+              13905 North Sandario Road
+            </h4>
             <h4 class="address display-4 text-center pb-3">Marana, AZ 85653</h4>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-6 bot_padding">
-            <h4 class="address display-4 text-center pb-3">Click the car to see if we deliver to your area &nbsp;<a href="img/deliveryArea2ps.png" target="_blank"><i class="fa fa-car" aria-hidden="true"></i></a></h4>
+            <h4 class="address display-4 text-center pb-3">
+              Click the car to see if we deliver to your area &nbsp;<a
+                href="img/deliveryArea2ps.png"
+                target="_blank"
+                ><i class="fa fa-car" aria-hidden="true"></i
+              ></a>
+            </h4>
           </div>
         </div>
         <div id="contact">
-          <iframe src="https://snazzymaps.com/embed/35223" width="100%" height="500px" style="border:none;"></iframe>
+          <iframe
+            src="https://snazzymaps.com/embed/35223"
+            width="100%"
+            height="500px"
+            style="border: none;"
+          ></iframe>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
             <div class="row justify-content-center">
               <div class="col-md-12 hours_heading">
-                <h1 class="display-4 text-center slide_header">How to Reach Us</h1>
+                <h1 class="display-4 text-center slide_header">
+                  How to Reach Us
+                </h1>
               </div>
             </div>
             <div class="row justify-content-center">
               <div class="col-md-12">
-                <h4 class="contact_phone display-4 text-center pb-2"><a href="tel:1-520-682-2022">520-682-2022</a></h4>
-                <h4 class="dine_in display-4 text-center pb-1 pt-4">Dine-In &middot; Delivery &middot; Carry-Out</h4>
+                <h4 class="contact_phone display-4 text-center pb-2">
+                  <a href="tel:1-520-682-2022">520-682-2022</a>
+                </h4>
+                <h4 class="dine_in display-4 text-center pb-1 pt-4">
+                  Dine-In &middot; Delivery &middot; Carry-Out
+                </h4>
               </div>
             </div>
           </div>
@@ -717,22 +961,38 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-md-10 text-center">
-                <h4 class="contact_job display-4 text-center pb-3">Looking for employment opportunities? Please click below!</h4>
-                <button type="button" class="btn btn-outline-light app-btn"><p class="lead"><a href="files/RRApplication.pdf" target="_blank">Application</a></p></button>
+                <h4 class="contact_job display-4 text-center pb-3">
+                  Looking for employment opportunities? Please click below!
+                </h4>
+                <button type="button" class="btn btn-outline-light app-btn">
+                  <p class="lead">
+                    <a href="files/RRApplication.pdf" target="_blank"
+                      >Application</a
+                    >
+                  </p>
+                </button>
               </div>
             </div>
           </div>
           <div class="col-md-3">
             <div class="row justify-content-center">
               <div class="col-md-12 hours_heading">
-                <h1 class="display-4 text-center slide_header">Hours of Operation</h1>
+                <h1 class="display-4 text-center slide_header">
+                  Hours of Operation
+                </h1>
               </div>
             </div>
             <div class="row justify-content-center">
               <div class="col-md-12">
-                <h4 class="address display-4 text-center pb-1">Monday thru Saturday</h4>
-                <h4 class="address display-4 text-center pb-3">11 a.m. to 9 p.m.</h4>
-                <h4 class="address display-4 text-center pb-3">Closed on Sundays</h4>
+                <h4 class="address display-4 text-center pb-1">
+                  Monday thru Saturday
+                </h4>
+                <h4 class="address display-4 text-center pb-3">
+                  11 a.m. to 9 p.m.
+                </h4>
+                <h4 class="address display-4 text-center pb-3">
+                  Closed on Sundays
+                </h4>
               </div>
             </div>
           </div>
@@ -741,9 +1001,16 @@
       <div class="form sections">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="display-4 text-center slide_header ">Questions &middot; Comments &middot; Concerns</h1>
-            <h4 class="form-text display-4 text-center pb-1">Please feel free to message us directly using the form below</h4>
-            <h4 class="menu_disclaimer_text text-center lead pb-5">**Form is not used for placing orders, as it may take 48 hours to receive a reply**</h4>
+            <h1 class="display-4 text-center slide_header">
+              Questions &middot; Comments &middot; Concerns
+            </h1>
+            <h4 class="form-text display-4 text-center pb-1">
+              Please feel free to message us directly using the form below
+            </h4>
+            <h4 class="menu_disclaimer_text text-center lead pb-5">
+              **Form is not used for placing orders, as it may take 48 hours to
+              receive a reply**
+            </h4>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -752,27 +1019,57 @@
               <fieldset>
                 <div class="form-group">
                   <div class="firstName">
-                      <input id="fname" name="name" type="text" placeholder="Name" class="form-control">
+                    <input
+                      id="fname"
+                      name="name"
+                      type="text"
+                      placeholder="Name"
+                      class="form-control"
+                    />
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="emailInput">
-                      <input id="email" name="email" type="text" placeholder="Email Address (not required)" class="form-control">
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      placeholder="Email Address (not required)"
+                      class="form-control"
+                    />
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="phoneInput">
-                      <input id="phone" name="telephone" type="text" placeholder="Phone Number (not required)" class="form-control">
+                    <input
+                      id="phone"
+                      name="telephone"
+                      type="text"
+                      placeholder="Phone Number (not required)"
+                      class="form-control"
+                    />
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="messageInput">
-                      <textarea class="form-control" id="message" name="comments" placeholder="Enter your message for us here." rows="7"></textarea>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="comments"
+                      placeholder="Enter your message for us here."
+                      rows="7"
+                    ></textarea>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="text-center submit_button">
-                    <button type="submit" value="Submit" class="btn sub-btn btn-outline-danger btn-lg">Submit</button>
+                    <button
+                      type="submit"
+                      value="Submit"
+                      class="btn sub-btn btn-outline-danger btn-lg"
+                    >
+                      Submit
+                    </button>
                   </div>
                 </div>
               </fieldset>
@@ -784,134 +1081,149 @@
       <div class="footer">
         <div class="row justify-content-center text-center">
           <div class="col-md-3">
-            <p class="lead footer_text">&copy; 2017 R&amp;R Pizza Express Marana</p>
+            <p class="lead footer_text">
+              &copy; 2017 R&amp;R Pizza Express Marana
+            </p>
           </div>
           <div class="col-md-3">
-            <p class="lead footer_text"><a href="http://jroportfoliotest.x10host.com/" target="_blank">Created by Justin Olson</a></p>
+            <p class="lead footer_text">
+              <a href="http://jroportfoliotest.x10host.com/" target="_blank"
+                >Created by Justin Olson</a
+              >
+            </p>
           </div>
           <div class="col-md-3">
             <p class="lead footer_text">j.olson.digital@gmail.com</p>
           </div>
         </div>
       </div>
-
-    </div> <!-- /Site Container -->
+    </div>
+    <!-- /Site Container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
     <!-- Parallax JS // http://pixelcog.github.io/parallax.js -->
     <script src="js/parallax.js"></script>
 
     <!-- Rotating Daily Special Script -->
     <script>
-
       function showhide() {
-      var d = new Date();
-      var s = document.getElementsByClassName(d.getDay());
-      for (var i = 0; i < s.length; i++) {
-        s[i].style.display = 'block';
+        var d = new Date();
+        var s = document.getElementsByClassName(d.getDay());
+        for (var i = 0; i < s.length; i++) {
+          s[i].style.display = "block";
+        }
       }
-    }
 
-    showhide();
-
+      showhide();
     </script>
 
     <!-- Adds currentSpecial class to dayContainer div to provide border for the day of special -->
     <script>
+      var d = new Date();
+      var n = d.getDay();
 
-    var d = new Date();
-    var n = d.getDay();
+      n = n > 0 ? n - 1 : 6; // zero is sunday, not monday in javascript
 
-    n = n > 0 ? n - 1 : 6; // zero is sunday, not monday in javascript
-
-    $('.dayContainer').eq(n).addClass('currentSpecial');
-
+      $(".dayContainer").eq(n).addClass("currentSpecial");
     </script>
 
     <!-- Carousel Sliding Interval Script -->
     <script>
-
-      $('.carousel').carousel({
-        interval: 5000
-      })
-
+      $(".carousel").carousel({
+        interval: 5000,
+      });
     </script>
 
     <!-- Smooth Scrolling - https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
     <script>
-
       $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
-        .click(function(event) {
+        .click(function (event) {
           // On-page links
           if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-            &&
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
           ) {
             // Figure out element to scroll to
             var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
             // Does a scroll target exist?
             if (target.length) {
               // Only prevent default if animation is actually gonna happen
               event.preventDefault();
-              $('html, body').animate({
-                scrollTop: target.offset().top
-                // Adding the - 80 offsets the scroll to scroll 40px above the target div
-              }, 1000, function() {
-                // Callback after animation
-                // Must change focus!
-                var $target = $(target);
-                $target.focus();
-                if ($target.is(":focus")) { // Checking if the target was focused
-                  return false;
-                } else {
-                  $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                  $target.focus(); // Set focus again
-                };
-              });
+              $("html, body").animate(
+                {
+                  scrollTop: target.offset().top,
+                  // Adding the - 80 offsets the scroll to scroll 40px above the target div
+                },
+                1000,
+                function () {
+                  // Callback after animation
+                  // Must change focus!
+                  var $target = $(target);
+                  $target.focus();
+                  if ($target.is(":focus")) {
+                    // Checking if the target was focused
+                    return false;
+                  } else {
+                    $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                    $target.focus(); // Set focus again
+                  }
+                }
+              );
             }
           }
         });
-
     </script>
 
     <!-- Main Nav Appear/Disappear on Scroll -->
     <script>
-
-      window.onscroll = function() {
-        var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-        if (scrollTop >= document.getElementById("about").offsetTop -10) {
+      window.onscroll = function () {
+        var scrollTop =
+          window.pageYOffset !== undefined
+            ? window.pageYOffset
+            : (
+                document.documentElement ||
+                document.body.parentNode ||
+                document.body
+              ).scrollTop;
+        if (scrollTop >= document.getElementById("about").offsetTop - 10) {
           // The -10 will make the navbar appear 75px above the #about section
-          $('.main-nav').fadeIn(100);
-          $('.main-nav').addClass('navbar-fixed');
+          $(".main-nav").fadeIn(100);
+          $(".main-nav").addClass("navbar-fixed");
         } else {
-          $('.main-nav').fadeOut(1);
-          $('.main-nav').removeClass('navbar-fixed');
+          $(".main-nav").fadeOut(1);
+          $(".main-nav").removeClass("navbar-fixed");
         }
-      }
-
+      };
     </script>
 
     <!-- Navbar Overlay Script -->
     <script>
-
       function openNav() {
-          document.getElementById("myNav").style.height = "100%";
+        document.getElementById("myNav").style.height = "100%";
       }
 
       function closeNav() {
-          document.getElementById("myNav").style.height = "0%";
+        document.getElementById("myNav").style.height = "0%";
       }
-
     </script>
-
   </body>
 </html>
