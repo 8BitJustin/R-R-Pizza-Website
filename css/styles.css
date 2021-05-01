@@ -4,8 +4,6 @@ RR Red - #DB1D00
 RR Yellow - #FCE813
 */
 
-
-
 /*******************************************/
 /* Logo Header, Navbar, and Special Header */
 /*******************************************/
@@ -13,18 +11,20 @@ RR Yellow - #FCE813
 /*Logo Header*/
 
 .logoHeader {
-    width: 100%;
+	width: 100%;
 	margin: auto;
 	height: 200px;
 	background-color: white;
 }
 
-.leftDesc, .rightDesc {
-	border-top: 1px solid #DB1D00;
-	border-bottom: 1px solid #DB1D00;
+.leftDesc,
+.rightDesc {
+	border-top: 1px solid #db1d00;
+	border-bottom: 1px solid #db1d00;
 }
 
-.leftDescPara, .rightDescPara {
+.leftDescPara,
+.rightDescPara {
 	margin: 0;
 	font-size: 1em;
 }
@@ -35,21 +35,33 @@ RR Yellow - #FCE813
 }
 
 .midDesc {
-	border-top: 1px solid #DB1D00;
-	border-bottom: 1px solid #DB1D00;
+	border-top: 1px solid #db1d00;
+	border-bottom: 1px solid #db1d00;
 	display: none;
 }
 
 .midDesc a {
 	color: black;
-  	text-decoration: none;
-  	font-size: 21px;
+	text-decoration: none;
+	font-size: 21px;
 }
 
 /*Logo*/
 
 .logoHeader img {
 	height: 200px;
+}
+
+/* Order Button */
+
+.order_button button {
+	background-color: #db1d00;
+	margin: 0.5rem;
+}
+
+.order_button button:hover {
+	background-color: white;
+	color: #db1d00;
 }
 
 /*Navbar Top*/
@@ -63,7 +75,8 @@ RR Yellow - #FCE813
 	font-size: 1.5em;
 }
 
-.navbar-nav .nav-item:nth-child(2), .nav-item:nth-child(4) {
+.navbar-nav .nav-item:nth-child(2),
+.nav-item:nth-child(4) {
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -71,10 +84,10 @@ RR Yellow - #FCE813
 /*Main Navbar*/
 
 .navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
 }
 
 .main-nav .main-nav-link {
@@ -86,73 +99,88 @@ RR Yellow - #FCE813
 }
 
 .main-nav {
-	background-color: #4E4E4E;
+	background-color: #4e4e4e;
 	width: 100%;
 }
 
 .main-nav .navbar-toggler {
 	margin: 200px 0 0 0;
-    background-color: rgba(255,255,255, 0.6);
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+button.navbar-toggler {
+	position: absolute;
+	top: -250px;
 }
 
 /*Navbar Overlay*/
 
 .overlay {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 101;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-y: hidden;
-    transition: 0.5s;
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 101;
+	top: 0;
+	left: 0;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 24px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+	display: block;
+	transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+.overlay a:hover,
+.overlay a:focus {
+	color: #f1f1f1;
 }
 
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+.overlay .overlay_order {
+	text-shadow: 0px 0px 6px #db1d00, 0px 0px 6px #db1d00, 0px 0px 6px #db1d00,
+		0px 0px 8px white, 0px 0px 8px white;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+	.overlay {
+		overflow-y: auto;
+	}
+	.overlay a {
+		font-size: 20px;
+	}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
 }
 
 /*Special Banner*/
 
 .specialHolder {
 	width: 100%;
-	background-color: #DB1D00;
+	background-color: #db1d00;
 	color: white;
 }
 
@@ -166,18 +194,14 @@ RR Yellow - #FCE813
 	font-size: 1.3em;
 }
 
-
-
 /*******************************************/
 /* Carousel                                */
 /*******************************************/
 
 .carousel-inner img {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
-
-
 
 /*******************************************/
 /* About Us                                */
@@ -202,16 +226,16 @@ RR Yellow - #FCE813
 /*******************************************/
 
 .specials {
-/*Color and image commented-out due to parallax.js script on index.html*/
-/*	background-color: #778899;*/
-/*  background-image: url('../img/CheesePizzaDarkBlur.png');*/
-/*	background-size:     cover;
+	/*Color and image commented-out due to parallax.js script on index.html*/
+	/*	background-color: #778899;*/
+	/*  background-image: url('../img/CheesePizzaDarkBlur.png');*/
+	/*	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;*/
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 }
 
@@ -225,7 +249,7 @@ RR Yellow - #FCE813
 
 .day_jumbo {
 	font-size: 2.2em;
-	text-shadow: 1px 1px 2px #DB1D00, 0 0 25px #FCE813, 0 0 5px yellow;
+	text-shadow: 1px 1px 2px #db1d00, 0 0 25px #fce813, 0 0 5px yellow;
 }
 
 .four_days {
@@ -233,7 +257,7 @@ RR Yellow - #FCE813
 }
 
 .lunch_specials_heading {
-	border-bottom: 2px solid #DB1D00;
+	border-bottom: 2px solid #db1d00;
 	padding-bottom: 10px;
 	font-size: 2.8em;
 }
@@ -247,16 +271,16 @@ RR Yellow - #FCE813
 /*******************************************/
 
 .menu {
-	background-image: url('../img/logoBackgroundLarge.png');
+	background-image: url("../img/logoBackgroundLarge.png");
 
-    /* Full height */
-    height: 100%;
+	/* Full height */
+	height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .sub_heading {
@@ -265,7 +289,7 @@ RR Yellow - #FCE813
 
 .menu_specialty {
 	margin-top: 48px;
-	border-bottom: 2px solid #DB1D00;
+	border-bottom: 2px solid #db1d00;
 	padding-bottom: 10px;
 	font-size: 2.8em;
 }
@@ -294,12 +318,14 @@ RR Yellow - #FCE813
 
 /*Pizza Table*/
 
-.table td, .table th {
+.table td,
+.table th {
 	border-color: transparent;
 }
 
-.table tbody td, .table tbody th {
-	border-color: #DB1D00;
+.table tbody td,
+.table tbody th {
+	border-color: #db1d00;
 }
 
 .table thead th {
@@ -315,7 +341,7 @@ RR Yellow - #FCE813
 .hot_cold {
 	margin-top: 24px;
 	font-size: 1.4em;
-	border-bottom: 1px solid #DB1D00;
+	border-bottom: 1px solid #db1d00;
 }
 
 .menu_disclaimer {
@@ -327,14 +353,12 @@ RR Yellow - #FCE813
 	font-size: 1.2em;
 }
 
-
-
 /*******************************************/
 /* Contact/Location                        */
 /*******************************************/
 
 .contact {
-	background-color: #DB1D00;
+	background-color: #db1d00;
 	color: white;
 }
 
@@ -351,12 +375,12 @@ RR Yellow - #FCE813
 }
 
 .fa-car {
-	color: #FCE813;
+	color: #fce813;
 }
 
 .contact_phone a {
 	color: white;
-  	text-decoration: none;
+	text-decoration: none;
 }
 
 .contact_job {
@@ -369,7 +393,7 @@ RR Yellow - #FCE813
 }
 
 .app-btn a:hover {
-	color: #DB1D00;
+	color: #db1d00;
 }
 
 .app-btn p {
@@ -384,23 +408,21 @@ RR Yellow - #FCE813
 	font-size: 1.75em;
 }
 
-
-
 /*FORM*/
 
-input[type=text] {
-    background-color: #DB1D00;
-    color: white;
+input[type="text"] {
+	background-color: #db1d00;
+	color: white;
 }
 
 #message {
-	background-color: #DB1D00;
+	background-color: #db1d00;
 	color: white;
 }
 
 #message:focus {
-	background-color: #DB1D00;
-    color: white;
+	background-color: #db1d00;
+	color: white;
 }
 
 /*Placeholder input*/
@@ -408,11 +430,13 @@ input::-webkit-input-placeholder {
 	color: white !important;
 }
 
-input:-moz-placeholder { /* Firefox 18- */
+input:-moz-placeholder {
+	/* Firefox 18- */
 	color: white !important;
 }
 
-input::-moz-placeholder {  /* Firefox 19+ */
+input::-moz-placeholder {
+	/* Firefox 19+ */
 	color: white !important;
 }
 
@@ -426,11 +450,13 @@ textarea::-webkit-input-placeholder {
 	color: white !important;
 }
 
-textarea:-moz-placeholder { /* Firefox 18- */
+textarea:-moz-placeholder {
+	/* Firefox 18- */
 	color: white !important;
 }
 
-textarea::-moz-placeholder {  /* Firefox 19+ */
+textarea::-moz-placeholder {
+	/* Firefox 19+ */
 	color: white !important;
 }
 
@@ -438,12 +464,10 @@ textarea:-ms-input-placeholder {
 	color: white !important;
 }
 
-input[type=text]:focus {
-    background-color: #DB1D00;
-    color: white;
+input[type="text"]:focus {
+	background-color: #db1d00;
+	color: white;
 }
-
-
 
 /*******************************************/
 /* Footer                                  */
@@ -451,8 +475,8 @@ input[type=text]:focus {
 
 .footer {
 	padding: 20px 0px;
-	background-color: #4E4E4E;
-	color: #FCE813;
+	background-color: #4e4e4e;
+	color: #fce813;
 }
 
 .footer_text {
@@ -461,10 +485,8 @@ input[type=text]:focus {
 
 .footer_text a {
 	text-decoration: none;
-	color: #FCE813;
+	color: #fce813;
 }
-
-
 
 /*******************************************/
 /* Misc.                                   */
@@ -472,12 +494,12 @@ input[type=text]:focus {
 
 body {
 	background-color: transparent;
-    overflow-x: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .siteContainer {
 	max-width: 100% !important;
-    overflow-x: hidden !important;
+	overflow-x: hidden !important;
 }
 
 .sections {
@@ -492,12 +514,11 @@ body {
 }
 
 .currentSpecial {
-
 	/*Full Curved Border*/
-	border: 1px solid #FCE813;
+	border: 1px solid #fce813;
 	border-radius: 15px 50px;
 
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 	/*Left-Right Border*/
@@ -528,7 +549,8 @@ body {
 /*Logo Header*/
 
 @media (max-width: 767px) {
-	.leftDesc, .rightDesc {
+	.leftDesc,
+	.rightDesc {
 		display: none;
 	}
 
@@ -546,6 +568,15 @@ body {
 	}
 }
 
+/* Order Online */
+
+@media (max-width: 767px) {
+	.order_button button {
+		font-size: 0.85rem;
+		margin: none;
+	}
+}
+
 /*Navbar*/
 
 @media (max-width: 767px) {
@@ -560,7 +591,7 @@ body {
 
 @media (max-width: 767px) {
 	.specialPara {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 }
 
@@ -585,8 +616,9 @@ body {
 	.day_header {
 		font-size: 1.35em;
 	}
-	.day_special, .day_savings {
-		font-size: .8em;
+	.day_special,
+	.day_savings {
+		font-size: 0.8em;
 	}
 	.day_jumbo {
 		font-size: 1.1em;
@@ -611,7 +643,7 @@ body {
 
 @media (max-width: 767px) {
 	.lunch_specials_heading {
-		font-size: 1.8em;;
+		font-size: 1.8em;
 	}
 	.menu_specialty {
 		font-size: 1.8em;
@@ -624,19 +656,20 @@ body {
 		margin-top: 24px;
 	}
 	.menu-table-item {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
-	.toppings_flavors_info, .menu_disclaimer_text {
-		font-size: .8em;
+	.toppings_flavors_info,
+	.menu_disclaimer_text {
+		font-size: 0.8em;
 	}
 	.menu_item {
 		font-size: 1.5em;
 	}
 	.menu_item_desc {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 	.size_price {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 	.menu_disclaimer {
 		margin-top: 48px;
@@ -646,7 +679,9 @@ body {
 /*Contact*/
 
 @media (max-width: 767px) {
-	.address, .form-text, .dine_in {
+	.address,
+	.form-text,
+	.dine_in {
 		font-size: 1.2em;
 	}
 	.contact_phone {
@@ -672,7 +707,7 @@ body {
 	}
 
 	.footer_text {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 }
 
