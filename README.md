@@ -144,3 +144,7 @@ Small html changes, spacing mainly.
 1/7/2020 (Prices Update)
 Updated most prices for items
 Added comment heading for lunch specials for easier location
+
+2/8/2022 (Prices Update)
+Updated most prices, including:
+Subs/Salads/Calzones/Lunch Specials/Base prices on Pizzas/Breadsticks/Wings(removed 40 piece)/Pizza-Wing Combos/Supreme Pizzas/Speciality Pizzas/Gluten Free
