@@ -148,3 +148,14 @@ Added comment heading for lunch specials for easier location
 2/8/2022 (Prices Update)
 Updated most prices, including:
 Subs/Salads/Calzones/Lunch Specials/Base prices on Pizzas/Breadsticks/Wings(removed 40 piece)/Pizza-Wing Combos/Supreme Pizzas/Speciality Pizzas/Gluten Free
+
+2/11/2022 (Specials Removed/Updated)
+Removed previous daily specials, replaced with four specials available daily
+Adjusted font sizes of new specials with media queries
+Removed html for rotating special at top of page
+Removed js for rotating special
+Removed css for special highlight
+
+2/11/2022 (Navbar Toggle Button Update)
+Added two lines of jquery code to adjust top value depending on scroll
+Adjusted css to accommodate new changes

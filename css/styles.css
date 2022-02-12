@@ -108,9 +108,10 @@ RR Yellow - #FCE813
 	background-color: rgba(255, 255, 255, 0.6);
 }
 
-button.navbar-toggler {
+.navbar-light .navbar-toggler {
 	position: absolute;
 	top: -250px;
+	left: 2px;
 }
 
 /*Navbar Overlay*/
@@ -244,16 +245,12 @@ button.navbar-toggler {
 }
 
 .day_special {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .day_jumbo {
 	font-size: 2.2em;
 	text-shadow: 1px 1px 2px #db1d00, 0 0 25px #fce813, 0 0 5px yellow;
-}
-
-.four_days {
-	margin-bottom: 48px;
 }
 
 .lunch_specials_heading {
@@ -513,23 +510,6 @@ body {
 	font-size: 3.5em;
 }
 
-.currentSpecial {
-	/*Full Curved Border*/
-	border: 1px solid #fce813;
-	border-radius: 15px 50px;
-
-	background-color: rgba(255, 255, 255, 0.2);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-	/*Left-Right Border*/
-	/*border-left: 1px solid #FCE813;
-	border-right: 1px solid #FCE813;*/
-
-	/*Top-Bottom Border*/
-	/*border-top: 1px solid #FCE813;
-	border-bottom: 1px solid #FCE813;*/
-}
-
 .last_item {
 	margin-bottom: 16px;
 }
@@ -579,13 +559,13 @@ body {
 
 /*Navbar*/
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	.navbar-toggler {
 		position: absolute;
 		top: -198px;
 		left: 2px;
 	}
-}
+} */
 
 /*Special Banner*/
 
@@ -612,16 +592,25 @@ body {
 
 /*Specials*/
 
+@media (max-width: 991px) {
+	.day_special {
+		font-size: 1.5em;
+	}
+	.day_jumbo {
+		font-size: 1.8em;
+	}
+}
+
 @media (max-width: 767px) {
 	.day_header {
 		font-size: 1.35em;
 	}
 	.day_special,
 	.day_savings {
-		font-size: 0.8em;
+		font-size: 1.2em;
 	}
 	.day_jumbo {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 	.four_days {
 		margin-bottom: 24px;
