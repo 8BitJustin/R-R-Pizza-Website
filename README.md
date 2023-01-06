@@ -162,3 +162,5 @@ Adjusted css to accommodate new changes
 
 1/6/2022 (Prices Updates)
 Increased lunch item prices
+Increased addl. toppings prices
+Removed 'Not Required' from form in HTML
