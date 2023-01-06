@@ -159,3 +159,6 @@ Removed css for special highlight
 2/11/2022 (Navbar Toggle Button Update)
 Added two lines of jquery code to adjust top value depending on scroll
 Adjusted css to accommodate new changes
+
+1/6/2022 (Prices Updates)
+Increased lunch item prices
