@@ -34,11 +34,11 @@ if(isset($_POST['email'])) {
  
     // validation expected data exists
  
-    if(!isset($_POST['name']) ||
+    if(!isset($_POST['name']) &&
   
-        !isset($_POST['email']) ||
+        !isset($_POST['email']) &&
  
-        !isset($_POST['telephone']) ||
+        !isset($_POST['telephone']) &&
  
         !isset($_POST['comments'])) {
  
