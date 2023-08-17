@@ -165,3 +165,9 @@ Increased lunch item prices
 Increased addl. toppings prices
 Removed 'Not Required' from form in HTML
 Changed operators on .php lines 37, 39, 41 from || to && making all fields requirement
+
+8/17/2023 (Order Link Update)
+Changed order link per client request
+Was http://order.pointofsuccess.com/r/rrpizzamarana.html
+Now https://deliveryzones.bigholler.com/?SURL=rnrpizzamarana
+
