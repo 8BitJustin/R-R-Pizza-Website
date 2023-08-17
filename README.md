@@ -164,6 +164,4 @@ Adjusted css to accommodate new changes
 Increased lunch item prices
 Increased addl. toppings prices
 Removed 'Not Required' from form in HTML
-Changed operators on .php lines 37, 39, 41 from || to && making all fields requirements
-
-test
+Changed operators on .php lines 37, 39, 41 from || to && making all fields requirement
