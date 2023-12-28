@@ -313,6 +313,10 @@ RR Yellow - #FCE813
 	margin-bottom: 0;
 }
 
+.size_price {
+	font-size: 1.6em;
+}
+
 /*Pizza Table*/
 
 .table td,
