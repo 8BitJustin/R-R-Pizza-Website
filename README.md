@@ -171,3 +171,5 @@ Changed order link per client request
 Was http://order.pointofsuccess.com/r/rrpizzamarana.html
 Now https://deliveryzones.bigholler.com/?SURL=rnrpizzamarana
 
+12/28/2023 (Prices Update)
+Removed ALL pricing from website
