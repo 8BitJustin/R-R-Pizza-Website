@@ -173,3 +173,7 @@ Now https://deliveryzones.bigholler.com/?SURL=rnrpizzamarana
 
 12/28/2023 (Prices Update)
 Removed ALL pricing from website
+
+1/1/2023
+Updated some divs to correct pricing removal
+Corrected some order links
