@@ -177,3 +177,22 @@ Removed ALL pricing from website
 1/1/2023
 Updated some divs to correct pricing removal
 Corrected some order links
+
+12/31/2024
+Made following changes:
+    Removed Taco specialty pizza
+    Removed Chicken Cordon Bleu specialty pizza
+    Added Maui BBQ Chicken specialty pizza
+    Added Donna's Italian Pesto specialty pizza
+    Added Ricotta Cheese as a pizza topping
+    Commented out the following sandwich items as to not mess up the div's in place:
+        BBQ Beef
+        Veggie
+        Honey Mustard Turkey
+        Turkey Bacon Ranch
+        Sausage
+        Pizza Sub
+        Chicken Parmesan
+    Commented out Chicken and Turkey Bacon Ranch sandwich
+    Commented out "Double Meat Available"
+    Removed mushrooms and black olives from included veggies list within sandwiches
